@@ -1,2 +1,7 @@
 target/
+/.classpath
+/.project
+.springBeans
+.metadata/
+.settings/
 src/main/resources/config/config.properties
