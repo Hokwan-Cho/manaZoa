@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+
+h1 {font-size:24px;font-weight:500;color:#084ead;padding-bottom:20px}
+h2 {font-size:18px;font-weight:500;color:#555}
+h3 {font-weight:500;margin-top:20px}
+
+
+h1.type2 {font-size:36px;font-weight:500;color:#34393a;padding:30px 0}
+h2.type2 {font-size:21px;color:#025070;margin:40px 0 15px 0}
+
+
+.result-tit-box {padding:30px 3% 0 3%;position:relative;}
+.result-tit-box-btn {position:absolute;right:3%}
+button.btn-page1 {border:1px solid #dae1ea;padding:5px 15px 5px 30px;background:#fff url(/resources/img/ico-page1.png)  10px 5px no-repeat;color:#4e7dbd;font-weight:bold;font-size:14px;border-radius:5px;cursor:pointer}
+button.btn-page2 {border:1px solid #dae1ea;padding:5px 15px 5px 50px;background:#fff url(/resources/img/ico-page2.png)  10px 5px no-repeat;color:#4e7dbd;font-weight:bold;font-size:14px;border-radius:5px;cursor:pointer}
+
+.type2-result-tit-box-btn {position:absolute;right:3%;top:70px}
+
+button.type2-btn-page1 {border:1px solid #039be5;padding:15px 15px 15px 40px;background:#fff url(/resources/img/ico-page1.png)  15px 15px no-repeat;color:#039be5;font-weight:bold;font-size:14px;border-radius:1px;cursor:pointer}
+button.type2-btn-page2 {border:1px solid #039be5;padding:15px 15px 15px 60px;background:#fff url(/resources/img/ico-page2.png)  15px 15px no-repeat;color:#039be5;font-weight:bold;font-size:14px;border-radius:1px;cursor:pointer;margin-right:5px}
+
+
+
+
+.result-warp {padding:30px 0;}
+
+
+.result-box-2line {display:inline-block;width:44%;float:left;margin:0}
+
+.result-box {margin:0 3% 0 3%}
+
+table.rb-st1 { position:relative; width:100%; border-top:2px solid #555;margin:10px 0 50px 0}
+table.rb-st1  th { color:#000; font-size:14px; font-weight:600; padding:12px; background:#f5fafe;border:1px solid #bebebf;width:15%}
+table.rb-st1  td { text-align:center; padding:10px; font-size:13px; color:#696969; border:1px solid #bebebf;}
+
+
+
+table.rb-st2 { position:relative; width:100%; border-top:2px solid #2661b1;margin:10px 0 0px 0}
+table.rb-st2  th { color:#000; font-size:14px; font-weight:600; padding:12px; background:#c8d4e3;border:1px solid #91a4bf;width:15%}
+table.rb-st2  td { text-align:center; padding:10px; font-size:13px; color:#696969; border:1px solid #91a4bf;}
+
+
+table.rb-st3 { position:relative; width:100%; border-top:2px solid #555;margin:10px 0 50px 0}
+table.rb-st3  th { color:#000; font-size:14px; font-weight:600; padding:12px; background:#f5fafe;border:1px solid #bebebf;}
+table.rb-st3  td { text-align:center; padding:10px; font-size:13px; color:#696969; border:1px solid #bebebf;}
+
+
+table.rb-st4 { position:relative; width:100%; margin:10px 0 0px 0; border:1px solid #e5e5e5;}
+table.rb-st4 tr {}
+table.rb-st4  th { color:#275557; font-weight:normal; padding:8px 5px; background:#d1e4e5;width:13%;border:1px solid #abc9cb;font-size:14px}
+table.rb-st4  th.col { background:#eafefc;}
+table.rb-st4  td { text-align:center; padding:5px;  color:#828282;font-size:14px;line-height:18px;background:#fff;border:1px solid #abc9cb;}
+table.rb-st4  td.rline {border-right:1px solid #e8e6e6;}
+table.rb-st4  td.lline {border-left:1px solid #7fbfcd;}
+table.rb-st4  td.left { text-align:left; }
+table.rb-st4  td.bg1 {background:#eaf4f5 }
+table.rb-st4  td.bg2 {background:#fefef6;color:#000}
+table.rb-st4  th.bg2 {background:#fefef6;color:#4aaaaf }
+
+
+table.rb-st5 { position:relative; width:100%; border-top:2px solid #81a2cb;margin:10px 0 0px 0;font-size:14px; }
+table.rb-st5  th { color:#000; font-weight:normal; padding:5px 10px; background:#e0ebf9;width:15%;border:1px solid #81a2cb;}
+table.rb-st5  td { text-align:center; padding:5px 10px;  color:#696969;font-size:13px;line-height:21px;border:1px solid #81a2cb; }
+table.rb-st5 tr.topline {border-top:2px solid #7fbfcd;}
+table.rb-st5  th.bg1 {background:#f4f4f4 }
+table.rb-st5  th.bg2,table.rb-st5  td.bg2 {background:#fefef6 }
+table.rb-st5  td.right {text-align:right }
+table.rb-st5  td.rline {border-right:1px solid #e1e1d0;}
+
+
+
+table.rb-st6 { position:relative; width:100%; border-top:2px solid #a6a6a6;margin:10px 0 0px 0;font-size:14px; }
+table.rb-st6 tr {border-bottom:1px solid #a6a6a6;}
+table.rb-st6  th { color:#000; font-weight:normal; padding:12px; background:#f4f4f4;width:15%;}
+table.rb-st6  td { text-align:center; padding:10px;  color:#696969;font-size:13px;line-height:21px }
+
+
+table.rb-st7 { position:relative; width:100%; margin:10px 0 0px 0;font-size:16px; border:3px solid #3e90b7;}
+table.rb-st7  th { color:#2f6b88; font-weight:normal; padding:12px; background:#e2f3fa;width:15%;border:1px solid #b1d1e0;}
+table.rb-st7  td { text-align:center; padding:10px;  color:#828282;font-size:15px;line-height:21px;background:#f9fcfd;border:1px solid #b1d1e0;}
+table td.left { text-align:left; }
+table td.right { text-align:right; }
+
+span.nano {font-size:90%;color:#555}
+
+
+
+/*
+table.rb-st4 { position:relative; width:100%; border-top:2px solid #7fbfcd;margin:10px 0 0px 0;font-size:16px; }
+table.rb-st4 tr {border-bottom:1px solid #7fbfcd;}
+table.rb-st4  th { color:#000; font-weight:normal; padding:12px; background:#eafbff;width:15%}
+table.rb-st4  th.col { background:#eafefc;}
+table.rb-st4  td { text-align:center; padding:10px;  color:#696969;font-size:15px;line-height:21px }
+table.rb-st4  td.rline {border-right:1px solid #7fbfcd;}
+table.rb-st4  td.lline {border-left:1px solid #7fbfcd;}
+table.rb-st4  td.left { text-align:left; }
+table.rb-st4  td.bg1 {background:#f6fcfe }
+table.rb-st4  td.bg2 {background:#fefef6 }
+
+*/
+
+
+.td-bgcol {background:#ecfafa}
+
+.tb1 {border:1px solid #bebebf;padding:5px 10px;width:60%}
+textarea.tb1 {width:95%;height:80px}
+
+.ps {display:block;margin-top:-40px}
+
+
+.btn-box {text-align:center;margin:-30px 0 30px 0;border-top:2px solid #bcc5d2;padding-top:30px;clear:both}
+a.bt-prev{ background:#e3e3e3; padding:10px 50px; display:inline-block; color:#444; border-radius:5px;font-size:16px;font-weight:500}
+a.bt-prev:hover {background:#cfd8e3}
+a.bt-next{ background:#a2bde3; padding:10px 50px; display:inline-block; color:#333; border-radius:5px;font-size:16px;font-weight:500}
+a.bt-next:hover {background:#88a7d1}
+
+
+.blue { color:#0F51C6 !important; }

@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+    background-color: #f8f8f8;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.surveyHeader{
+    width: 100%;
+    height:50px;
+    background-color: #fff;
+    border-bottom: 2px solid #007bc3;
+    margin-bottom: 20px; 
+}
+.header_title{
+    font-size: 20px;
+}
+.surveyListWrap{
+    padding-top:20px;
+    position: relative;
+    width:1880px;
+    margin:0 auto;
+}
+.surveyListLeft{
+    float: left;
+    width:100%;padding:0 20px;
+    min-height:700px;
+    border: 1px solid #ddd;;
+    background-color: #fff;
+    border-left: 2px #3a93de solid !important;
+}
+.surveyListRight{
+    float: right;
+    width:100%;padding:0 20px;
+    height: 1000px;
+    border: 1px solid #ddd;;
+    background-color: #fff;
+    border-right: 2px #3a93de solid !important;
+}
+.searchBox{
+    width: 100%;
+    margin:0 auto;
+    margin-top: 10px;
+}
+.surveyerListWrap{
+    padding-top: 10px;
+    width: 100%;
+    margin:0 auto;
+    margin-top: 10px;
+    /*height:800px;*/
+}
+.surveyerList{
+    position: relative;
+    width:100%;
+    margin:0 auto;
+    border-top: 2px solid #555 !important;
+    border-collapse: collapse;
+}
+
+.surveyerList td{
+    height: 30px;
+    text-align:center;
+    font-size: 12px;
+    color: #696969;
+    border-bottom: 1px solid #e1e1e1;
+    background: #fff;
+} 
+.surveyerList th{
+    background-color: #f1f0f0;
+    height: 40px;
+    text-align:center;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    border-bottom: 1px solid #bebebf;
+}
+.searchTbl{
+    position: relative;
+    width:100%;
+    margin:0 auto;
+    border-top: 2px solid #555 !important;
+    border-bottom: 2px solid #555 !important;
+    border-collapse: collapse;
+}
+.searchTbl tr{
+    border-top:1px solid #bebebf;
+    border-bottom:1px solid #bebebf;
+}
+.searchTbl td{
+    padding:5px 5px 5px 5px;
+    font-size: 12px;
+}
+.searchTbl th{
+    padding:5px 5px 5px 5px;
+    text-align:center;
+    background-color: #f1f0f0;
+    font-size: 12px;
+}
+.searchTbl input[type="text"]{
+    width:95%;
+    height: 20px;
+}
+.btn_group_right{
+    float:right;
+    padding-right:0px;
+    padding-top: 7px;
+}
+.btn_group_left{
+    float:left;
+    padding-left:0px;
+    padding-top: 7px;
+}
+.paging {
+    margin-top: 15px;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+}
+.paging a {
+    display: inline-block;
+    margin-left: 8px;
+    width: 30px;
+    height: 30px;
+    color: #9e9fa1;
+    font-size: 12px;
+    line-height: 30px;
+    border: 1px solid #E5E6E8;
+    vertical-align: middle;
+}
+.paging a.prev {
+    color: #000;
+    font-size: 0;
+    text-indent: -9999px;
+    font-weight: bold;
+    text-align: left;
+    background: url(/data/yuyu/icon/page_prev.png) no-repeat center center / 18px auto;
+}
+.paging a.next {
+    color: #000;
+    font-size: 0;
+    text-indent: -9999px;
+    font-weight: bold;
+    text-align: right;
+    background: url(/data/yuyu/icon/page_next.png) no-repeat center center / 18px auto;
+}
+.paging a.on, .paging a.active, .paging a:hover {
+    color: #262626;
+    border-color: #262626;
+}
+.table_caption{
+    padding-left:0px;font-weight:600;font-size:15px;clear:both;
+}
+.surveyList{
+    position: relative;
+    width: 100%;
+    margin:0 auto;
+    border-top: 2px solid #555 !important;
+    border-collapse: collapse;
+}
+
+.surveyList td{
+    height: 40px;
+    text-align:center;
+    font-size: 13px;
+    color: #696969;
+    border-bottom: 1px solid #e1e1e1;
+    background: #fff;
+} 
+.surveyList th{
+    background-color: #F9F9F9;
+    height: 40px;
+    text-align:center;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 130%;
+    border-bottom: 1px solid #bebebf;
+}
+.surveyListTblWrap{
+    padding-top: 10px;
+    width: 100%;
+    margin:0 auto;
+    margin-top: 10px;
+    height:800px;
+}
+.btn_red{
+    position: relative;
+    display: inline-block;
+   padding: 6px 10px;
+    border-left: 0;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;border:0px;
+    background-color: #FF5A5A;
+}
+.btn_blue{
+    position: relative;
+    display: inline-block;
+   padding: 6px 10px;
+    border-left: 0;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #1c99d7;border:0px;
+}
+.btn_blue_L{
+    position: relative;
+    display: inline-block;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+   border-radius: 5px;
+    background-color: #1c99d7;border:0px;
+}
+
+.btn_green{
+     position: relative;
+    display: inline-block;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+   border-radius: 5px;
+    background-color: #049f04;border:0px;
+}
+.btn_green_L{
+    position: relative;
+    display: inline-block;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+   border-radius: 5px;
+    background-color: #049f04;border:0px;
+}
+
+.btn_gray{
+     position: relative;
+    display: inline-block;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+   border-radius: 5px;
+    background-color: #7c7c7c;border:0px;
+}
+
+.btn_sms{
+     position: relative;
+    display: inline-block;
+    padding: 6px 10px 6px 25px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+   border-radius: 5px;
+    border:0px;
+	background:#fce15e url(../../resources/img/hp.png) no-repeat 8px 7px ;
+}
+
+.btn_linksms{
+     position: relative;
+    display: inline-block;
+    padding: 6px 10px 6px 25px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+   border-radius: 5px;
+    border:0px;
+	background:#ecac75 url(../../resources/img/ico-link.png) no-repeat 8px 7px ;
+}
+
+
+.user_info{
+    top:63px;
+    position: absolute;
+    left: 15px;
+    width:250px;
+    height:50px;
+    border:1px solid #eaeaea;
+    border-left: 3px #3a93de solid 
+}
+.logout{
+    width:100px;
+    height:30px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.goToSurvey{
+    width:100px;
+    height:30px;
+    color: #fff;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+select{
+    height: 25px;
+    width:97%;
+}
+

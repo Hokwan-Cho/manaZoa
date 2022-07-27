@@ -1,0 +1,1125 @@
+2017/11/08 09:41:01 : XecureConfig : configuration file path[/tmax/XecureConf/xecure_servlet.conf]
+2017/11/08 09:41:01 : XecureConfig : license file path[/tmax/XecureConf/license_xw.exp]
+2017/11/08 09:41:01 : XecureConfig settings : 
+General-licenseFileLocation : 
+General-logDir : /tmax/hsecure/xecureweb_ver7/log
+General-logFile : java
+General-logFileSchedule : null
+General-logLevel : 2
+General-VIDTimeout : 180
+General-useSIDCookie : false
+General-cookieDomainName : 
+General-useStartSession : false
+General-responseBufferSize : 10240
+General-errorPageURL : /XecureObject/xecure_error.html
+General-clientVersion : 4,0,2,3
+General-usePageCharset : false
+General-xgateConnectTimeout : 30
+General-ldapConnectTimeout : 30
+General-decScriptLineLength : -1
+Certificate-certPolicy : any-policy
+Certificate-rootStoreDir : /tmax/hsecure/xecureweb_ver7/certstore
+Certificate-serverCertDN : e=KEITI@co.kr,cn=KEITI,ou=KEITI,o=KEITI,c=KR
+Certificate-serverKeyPwd : null
+Certificate-useHSM : false
+Certificate-slotID : 0
+Certificate-encPIN : null
+Certificate-keyObjectID : 0
+Certificate-certObjectID : 0
+RmpCert-useRmp : 0
+RmpCert-DN : null
+RmpCert-keyPwd : null
+RmpCert-useHSM : false
+RmpCert-slotID : 0
+RmpCert-encPIN : null
+RmpCert-keyObjectID : 0
+RmpCert-certObjectID : 0
+RmpCert-useRmpAgent : 0
+PdaSettings-transferMode : none
+SFRA-addr : null
+SFRA-addrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+signGateAddr : null
+signGateAddrPort : 0
+signKoreaAddr : null
+signKoreaAddrPort : 0
+crossCertAddr : null
+crossCertAddrPort : 0
+tradeSignAddr : null
+tradeSignAddrPort : 0
+ncaSignAddr : null
+ncaSignAddrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+PSFRA-addr : null
+PSFRA-addrPort : 0
+PSFRA-socketTimeOut : 30
+PSFRA-serverCertFile : null
+PSFRA-serverKeyFile : null
+PSFRA-raCertFile : null
+PSFRA-caCertFile : null
+XECURERA-DN : null
+XECURERA-keyPwd : null
+XECURERA-addr : null
+XECURERA-addrPort : 0
+XECURERA-raType : 0
+XECURERA-rmpType : 0
+XECURECA-DN : null
+XECURECA-keyPwd : null
+XECURECA-useHSM : false
+XECURECA-slotID : 0
+XECURECA-encPIN : null
+XECURECA-keyObjectID : 0
+XECURECA-certObjectID : 0
+XECURECA-addr : null
+XECURECA-addrPort : 0
+XECURECA-caType : 0
+XECURECA-carmpType : 0
+XECURECA-carmpSocketTimeOut : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+AuthorizedCertificateSettings : //cn=yessignCA,ou=LicensedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,203.233.91.35:389//cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=signGATE CA,ou=licensedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.signgate.com:389//cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR;0;0;211.35.96.26:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.signkorea.com:389//cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ds.nca.or.kr:389//cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.nca.or.kr:389,ds.nca.or.kr:389//cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.crosscert.com:389//cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.tradesign.net:389//cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389
+TSA-Cert : null
+TSA-Cert-Serial : null
+TSA-ID : null
+TSA-Pwd : null
+TSA-IP : null
+TSA-Port : 0
+HashValue : null
+HashCount : 0
+IPCount : 0
+E2E e2eParam : none
+E2E prefix : null
+E2E prefix2 : null
+E2E cutPrefix : false
+E2ECUST e2eCustClass : null
+E2ECUST e2eCustMethod : null
+E2ECUST e2eCustConfig : null
+E2ECUST e2eCustOnly : true
+AnySignMAC anysign_mac : 
+
+2017/11/08 09:41:01 : XW_BUILD_VERSION: 7_v017g_df
+2017/11/08 09:41:01 : XW_BUILD_DATE: Thu Jun 15 14:54:36 KST 2017
+2017/11/08 09:41:01 : XecureCrypto Version : 2.0.0.0
+2017/11/08 09:41:01 : XecureCSP    Version : 1.7.0.0
+2017/11/08 09:41:01 : XecureIO     Version : 1.7.0.0
+2017/11/08 09:41:01 : XecurePVD    Version : 1.7.0.0
+2017/11/08 09:41:01 : XecureASN    Version : 1.7.0.0
+2017/11/08 09:41:01 : XecureCRL    Version : 1.7.0.0
+2017/11/08 09:41:01 : XecureLDAP   Version : 1.7.1.0
+2017/11/08 09:41:01 : XecureOCSP   Version : 1.7.0.0
+2017/11/08 09:41:01 : XecurePKC    Version : 1.7.0.0
+2017/11/08 09:41:01 : XecurePKCS5  Version : 1.7.0.1
+2017/11/08 09:41:01 : XecurePKCS7  Version : 1.7.0.1
+2017/11/08 09:41:01 : XecurePKCS8  Version : 1.7.0.0
+2017/11/08 09:41:01 : XecurePKCS12 Version : 1.7.0.1
+2017/11/08 09:41:01 : XecureTSP    Version : 1.7.0.0
+2017/11/08 09:41:01 : XecureRAS    Version : RAS_VERSION: 1.6.0.0
+2017/11/08 09:41:01 : XecureCAS    Version : CAS_VERSION: 1.6.0.0
+2017/11/08 09:41:01 : XecureRMP    Version : RMP_VERSION: 1.6.0.0
+2017/11/08 09:41:01 : license verified successfully
+
+2017/11/08 09:41:01 : XecureLib.ServerCert public key length: [1024]
+2017/11/08 09:41:01 : XecureLib.ServerCert Serial: [0db6]
+2017/11/08 09:41:01 : XecureLib.ServerCert Validation From[2017-10-24 15:27:04] To[2018-10-31 15:27:04]
+2017/11/08 09:41:01 : XecureLib.set_SetServerKeyPWD : Server Cert/Key success
+2017/11/08 09:41:01 : XecureLib.set_TSACertificate : DN[] ID[] PWD[]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=LicensedCA,o=yessign,c=kr] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,203.233.91.35:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA,ou=licensedCA,o=KICA,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR] OPT[0:0] LDAP[ds.nca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 09:41:01 : XecureLib.set_SetUseRmpAgent : success (value : 0)
+2017/11/08 10:04:09 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 10:04:09 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 10:05:55 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 10:05:55 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 10:11:58 : XecureConfig : configuration file path[/tmax/XecureConf/xecure_servlet.conf]
+2017/11/08 10:11:58 : XecureConfig : license file path[/tmax/XecureConf/license_xw.exp]
+2017/11/08 10:11:58 : XecureConfig settings : 
+General-licenseFileLocation : 
+General-logDir : /tmax/hsecure/xecureweb_ver7/log
+General-logFile : java
+General-logFileSchedule : null
+General-logLevel : 2
+General-VIDTimeout : 180
+General-useSIDCookie : false
+General-cookieDomainName : 
+General-useStartSession : false
+General-responseBufferSize : 10240
+General-errorPageURL : /XecureObject/xecure_error.html
+General-clientVersion : 4,0,2,3
+General-usePageCharset : false
+General-xgateConnectTimeout : 30
+General-ldapConnectTimeout : 30
+General-decScriptLineLength : -1
+Certificate-certPolicy : any-policy
+Certificate-rootStoreDir : /tmax/hsecure/xecureweb_ver7/certstore
+Certificate-serverCertDN : e=KEITI@co.kr,cn=KEITI,ou=KEITI,o=KEITI,c=KR
+Certificate-serverKeyPwd : null
+Certificate-useHSM : false
+Certificate-slotID : 0
+Certificate-encPIN : null
+Certificate-keyObjectID : 0
+Certificate-certObjectID : 0
+RmpCert-useRmp : 0
+RmpCert-DN : null
+RmpCert-keyPwd : null
+RmpCert-useHSM : false
+RmpCert-slotID : 0
+RmpCert-encPIN : null
+RmpCert-keyObjectID : 0
+RmpCert-certObjectID : 0
+RmpCert-useRmpAgent : 0
+PdaSettings-transferMode : none
+SFRA-addr : null
+SFRA-addrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+signGateAddr : null
+signGateAddrPort : 0
+signKoreaAddr : null
+signKoreaAddrPort : 0
+crossCertAddr : null
+crossCertAddrPort : 0
+tradeSignAddr : null
+tradeSignAddrPort : 0
+ncaSignAddr : null
+ncaSignAddrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+PSFRA-addr : null
+PSFRA-addrPort : 0
+PSFRA-socketTimeOut : 30
+PSFRA-serverCertFile : null
+PSFRA-serverKeyFile : null
+PSFRA-raCertFile : null
+PSFRA-caCertFile : null
+XECURERA-DN : null
+XECURERA-keyPwd : null
+XECURERA-addr : null
+XECURERA-addrPort : 0
+XECURERA-raType : 0
+XECURERA-rmpType : 0
+XECURECA-DN : null
+XECURECA-keyPwd : null
+XECURECA-useHSM : false
+XECURECA-slotID : 0
+XECURECA-encPIN : null
+XECURECA-keyObjectID : 0
+XECURECA-certObjectID : 0
+XECURECA-addr : null
+XECURECA-addrPort : 0
+XECURECA-caType : 0
+XECURECA-carmpType : 0
+XECURECA-carmpSocketTimeOut : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+AuthorizedCertificateSettings : //cn=yessignCA,ou=LicensedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,203.233.91.35:389//cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=signGATE CA,ou=licensedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.signgate.com:389//cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR;0;0;211.35.96.26:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.signkorea.com:389//cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ds.nca.or.kr:389//cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.nca.or.kr:389,ds.nca.or.kr:389//cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.crosscert.com:389//cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.tradesign.net:389//cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389
+TSA-Cert : null
+TSA-Cert-Serial : null
+TSA-ID : null
+TSA-Pwd : null
+TSA-IP : null
+TSA-Port : 0
+HashValue : null
+HashCount : 0
+IPCount : 0
+E2E e2eParam : none
+E2E prefix : null
+E2E prefix2 : null
+E2E cutPrefix : false
+E2ECUST e2eCustClass : null
+E2ECUST e2eCustMethod : null
+E2ECUST e2eCustConfig : null
+E2ECUST e2eCustOnly : true
+AnySignMAC anysign_mac : 
+
+2017/11/08 10:11:58 : XW_BUILD_VERSION: 7_v017g_df
+2017/11/08 10:11:58 : XW_BUILD_DATE: Thu Jun 15 14:54:36 KST 2017
+2017/11/08 10:11:58 : XecureCrypto Version : 2.0.0.0
+2017/11/08 10:11:58 : XecureCSP    Version : 1.7.0.0
+2017/11/08 10:11:58 : XecureIO     Version : 1.7.0.0
+2017/11/08 10:11:58 : XecurePVD    Version : 1.7.0.0
+2017/11/08 10:11:58 : XecureASN    Version : 1.7.0.0
+2017/11/08 10:11:58 : XecureCRL    Version : 1.7.0.0
+2017/11/08 10:11:58 : XecureLDAP   Version : 1.7.1.0
+2017/11/08 10:11:58 : XecureOCSP   Version : 1.7.0.0
+2017/11/08 10:11:58 : XecurePKC    Version : 1.7.0.0
+2017/11/08 10:11:58 : XecurePKCS5  Version : 1.7.0.1
+2017/11/08 10:11:58 : XecurePKCS7  Version : 1.7.0.1
+2017/11/08 10:11:58 : XecurePKCS8  Version : 1.7.0.0
+2017/11/08 10:11:58 : XecurePKCS12 Version : 1.7.0.1
+2017/11/08 10:11:58 : XecureTSP    Version : 1.7.0.0
+2017/11/08 10:11:58 : XecureRAS    Version : RAS_VERSION: 1.6.0.0
+2017/11/08 10:11:58 : XecureCAS    Version : CAS_VERSION: 1.6.0.0
+2017/11/08 10:11:58 : XecureRMP    Version : RMP_VERSION: 1.6.0.0
+2017/11/08 10:11:58 : license verified successfully
+
+2017/11/08 10:11:58 : XecureLib.ServerCert public key length: [1024]
+2017/11/08 10:11:58 : XecureLib.ServerCert Serial: [0db6]
+2017/11/08 10:11:58 : XecureLib.ServerCert Validation From[2017-10-24 15:27:04] To[2018-10-31 15:27:04]
+2017/11/08 10:11:58 : XecureLib.set_SetServerKeyPWD : Server Cert/Key success
+2017/11/08 10:11:58 : XecureLib.set_TSACertificate : DN[] ID[] PWD[]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=LicensedCA,o=yessign,c=kr] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,203.233.91.35:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA,ou=licensedCA,o=KICA,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR] OPT[0:0] LDAP[ds.nca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 10:11:58 : XecureLib.set_SetUseRmpAgent : success (value : 0)
+2017/11/08 10:12:15 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 10:12:15 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 10:13:43 : XecureConfig : configuration file path[/tmax/XecureConf/xecure_servlet.conf]
+2017/11/08 10:13:43 : XecureConfig : license file path[/tmax/XecureConf/license_xw.exp]
+2017/11/08 10:13:43 : XecureConfig settings : 
+General-licenseFileLocation : 
+General-logDir : /tmax/hsecure/xecureweb_ver7/log
+General-logFile : java
+General-logFileSchedule : null
+General-logLevel : 2
+General-VIDTimeout : 180
+General-useSIDCookie : false
+General-cookieDomainName : 
+General-useStartSession : false
+General-responseBufferSize : 10240
+General-errorPageURL : /XecureObject/xecure_error.html
+General-clientVersion : 4,0,2,3
+General-usePageCharset : false
+General-xgateConnectTimeout : 30
+General-ldapConnectTimeout : 30
+General-decScriptLineLength : -1
+Certificate-certPolicy : any-policy
+Certificate-rootStoreDir : /tmax/hsecure/xecureweb_ver7/certstore
+Certificate-serverCertDN : e=KEITI@co.kr,cn=KEITI,ou=KEITI,o=KEITI,c=KR
+Certificate-serverKeyPwd : null
+Certificate-useHSM : false
+Certificate-slotID : 0
+Certificate-encPIN : null
+Certificate-keyObjectID : 0
+Certificate-certObjectID : 0
+RmpCert-useRmp : 0
+RmpCert-DN : null
+RmpCert-keyPwd : null
+RmpCert-useHSM : false
+RmpCert-slotID : 0
+RmpCert-encPIN : null
+RmpCert-keyObjectID : 0
+RmpCert-certObjectID : 0
+RmpCert-useRmpAgent : 0
+PdaSettings-transferMode : none
+SFRA-addr : null
+SFRA-addrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+signGateAddr : null
+signGateAddrPort : 0
+signKoreaAddr : null
+signKoreaAddrPort : 0
+crossCertAddr : null
+crossCertAddrPort : 0
+tradeSignAddr : null
+tradeSignAddrPort : 0
+ncaSignAddr : null
+ncaSignAddrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+PSFRA-addr : null
+PSFRA-addrPort : 0
+PSFRA-socketTimeOut : 30
+PSFRA-serverCertFile : null
+PSFRA-serverKeyFile : null
+PSFRA-raCertFile : null
+PSFRA-caCertFile : null
+XECURERA-DN : null
+XECURERA-keyPwd : null
+XECURERA-addr : null
+XECURERA-addrPort : 0
+XECURERA-raType : 0
+XECURERA-rmpType : 0
+XECURECA-DN : null
+XECURECA-keyPwd : null
+XECURECA-useHSM : false
+XECURECA-slotID : 0
+XECURECA-encPIN : null
+XECURECA-keyObjectID : 0
+XECURECA-certObjectID : 0
+XECURECA-addr : null
+XECURECA-addrPort : 0
+XECURECA-caType : 0
+XECURECA-carmpType : 0
+XECURECA-carmpSocketTimeOut : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+AuthorizedCertificateSettings : //cn=yessignCA,ou=LicensedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,203.233.91.35:389//cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=signGATE CA,ou=licensedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.signgate.com:389//cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR;0;0;211.35.96.26:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.signkorea.com:389//cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ds.nca.or.kr:389//cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.nca.or.kr:389,ds.nca.or.kr:389//cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.crosscert.com:389//cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.tradesign.net:389//cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389
+TSA-Cert : null
+TSA-Cert-Serial : null
+TSA-ID : null
+TSA-Pwd : null
+TSA-IP : null
+TSA-Port : 0
+HashValue : null
+HashCount : 0
+IPCount : 0
+E2E e2eParam : none
+E2E prefix : null
+E2E prefix2 : null
+E2E cutPrefix : false
+E2ECUST e2eCustClass : null
+E2ECUST e2eCustMethod : null
+E2ECUST e2eCustConfig : null
+E2ECUST e2eCustOnly : true
+AnySignMAC anysign_mac : 
+
+2017/11/08 10:13:43 : XW_BUILD_VERSION: 7_v017g_df
+2017/11/08 10:13:43 : XW_BUILD_DATE: Thu Jun 15 14:54:36 KST 2017
+2017/11/08 10:13:43 : XecureCrypto Version : 2.0.0.0
+2017/11/08 10:13:43 : XecureCSP    Version : 1.7.0.0
+2017/11/08 10:13:43 : XecureIO     Version : 1.7.0.0
+2017/11/08 10:13:43 : XecurePVD    Version : 1.7.0.0
+2017/11/08 10:13:43 : XecureASN    Version : 1.7.0.0
+2017/11/08 10:13:43 : XecureCRL    Version : 1.7.0.0
+2017/11/08 10:13:43 : XecureLDAP   Version : 1.7.1.0
+2017/11/08 10:13:43 : XecureOCSP   Version : 1.7.0.0
+2017/11/08 10:13:43 : XecurePKC    Version : 1.7.0.0
+2017/11/08 10:13:43 : XecurePKCS5  Version : 1.7.0.1
+2017/11/08 10:13:43 : XecurePKCS7  Version : 1.7.0.1
+2017/11/08 10:13:43 : XecurePKCS8  Version : 1.7.0.0
+2017/11/08 10:13:43 : XecurePKCS12 Version : 1.7.0.1
+2017/11/08 10:13:43 : XecureTSP    Version : 1.7.0.0
+2017/11/08 10:13:43 : XecureRAS    Version : RAS_VERSION: 1.6.0.0
+2017/11/08 10:13:43 : XecureCAS    Version : CAS_VERSION: 1.6.0.0
+2017/11/08 10:13:43 : XecureRMP    Version : RMP_VERSION: 1.6.0.0
+2017/11/08 10:13:43 : license verified successfully
+
+2017/11/08 10:13:43 : XecureLib.ServerCert public key length: [1024]
+2017/11/08 10:13:43 : XecureLib.ServerCert Serial: [0db6]
+2017/11/08 10:13:43 : XecureLib.ServerCert Validation From[2017-10-24 15:27:04] To[2018-10-31 15:27:04]
+2017/11/08 10:13:43 : XecureLib.set_SetServerKeyPWD : Server Cert/Key success
+2017/11/08 10:13:43 : XecureLib.set_TSACertificate : DN[] ID[] PWD[]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=LicensedCA,o=yessign,c=kr] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,203.233.91.35:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA,ou=licensedCA,o=KICA,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR] OPT[0:0] LDAP[ds.nca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 10:13:43 : XecureLib.set_SetUseRmpAgent : success (value : 0)
+2017/11/08 10:14:07 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 10:14:07 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 10:14:50 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 10:14:50 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 10:15:33 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [79050],[Unmatched Identification Number]
+2017/11/08 10:15:33 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 10:15:42 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [79050],[Unmatched Identification Number]
+2017/11/08 10:15:42 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 11:01:55 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 11:01:55 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 11:03:16 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 11:03:16 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 11:03:28 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [79050],[Unmatched Identification Number]
+2017/11/08 11:03:28 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 11:04:06 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 11:04:06 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 11:22:04 : XecureConfig : configuration file path[/tmax/XecureConf/xecure_servlet.conf]
+2017/11/08 11:22:04 : XecureConfig : license file path[/tmax/XecureConf/license_xw.exp]
+2017/11/08 11:22:04 : XecureConfig settings : 
+General-licenseFileLocation : 
+General-logDir : /tmax/hsecure/xecureweb_ver7/log
+General-logFile : java
+General-logFileSchedule : null
+General-logLevel : 2
+General-VIDTimeout : 180
+General-useSIDCookie : false
+General-cookieDomainName : 
+General-useStartSession : false
+General-responseBufferSize : 10240
+General-errorPageURL : /XecureObject/xecure_error.html
+General-clientVersion : 4,0,2,3
+General-usePageCharset : false
+General-xgateConnectTimeout : 30
+General-ldapConnectTimeout : 30
+General-decScriptLineLength : -1
+Certificate-certPolicy : any-policy
+Certificate-rootStoreDir : /tmax/hsecure/xecureweb_ver7/certstore
+Certificate-serverCertDN : e=KEITI@co.kr,cn=KEITI,ou=KEITI,o=KEITI,c=KR
+Certificate-serverKeyPwd : null
+Certificate-useHSM : false
+Certificate-slotID : 0
+Certificate-encPIN : null
+Certificate-keyObjectID : 0
+Certificate-certObjectID : 0
+RmpCert-useRmp : 0
+RmpCert-DN : null
+RmpCert-keyPwd : null
+RmpCert-useHSM : false
+RmpCert-slotID : 0
+RmpCert-encPIN : null
+RmpCert-keyObjectID : 0
+RmpCert-certObjectID : 0
+RmpCert-useRmpAgent : 0
+PdaSettings-transferMode : none
+SFRA-addr : null
+SFRA-addrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+signGateAddr : null
+signGateAddrPort : 0
+signKoreaAddr : null
+signKoreaAddrPort : 0
+crossCertAddr : null
+crossCertAddrPort : 0
+tradeSignAddr : null
+tradeSignAddrPort : 0
+ncaSignAddr : null
+ncaSignAddrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+PSFRA-addr : null
+PSFRA-addrPort : 0
+PSFRA-socketTimeOut : 30
+PSFRA-serverCertFile : null
+PSFRA-serverKeyFile : null
+PSFRA-raCertFile : null
+PSFRA-caCertFile : null
+XECURERA-DN : null
+XECURERA-keyPwd : null
+XECURERA-addr : null
+XECURERA-addrPort : 0
+XECURERA-raType : 0
+XECURERA-rmpType : 0
+XECURECA-DN : null
+XECURECA-keyPwd : null
+XECURECA-useHSM : false
+XECURECA-slotID : 0
+XECURECA-encPIN : null
+XECURECA-keyObjectID : 0
+XECURECA-certObjectID : 0
+XECURECA-addr : null
+XECURECA-addrPort : 0
+XECURECA-caType : 0
+XECURECA-carmpType : 0
+XECURECA-carmpSocketTimeOut : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+AuthorizedCertificateSettings : //cn=yessignCA,ou=LicensedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,203.233.91.35:389//cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=signGATE CA,ou=licensedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.signgate.com:389//cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR;0;0;211.35.96.26:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.signkorea.com:389//cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ds.nca.or.kr:389//cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.nca.or.kr:389,ds.nca.or.kr:389//cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.crosscert.com:389//cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.tradesign.net:389//cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389
+TSA-Cert : null
+TSA-Cert-Serial : null
+TSA-ID : null
+TSA-Pwd : null
+TSA-IP : null
+TSA-Port : 0
+HashValue : null
+HashCount : 0
+IPCount : 0
+E2E e2eParam : none
+E2E prefix : null
+E2E prefix2 : null
+E2E cutPrefix : false
+E2ECUST e2eCustClass : null
+E2ECUST e2eCustMethod : null
+E2ECUST e2eCustConfig : null
+E2ECUST e2eCustOnly : true
+AnySignMAC anysign_mac : 
+
+2017/11/08 11:22:04 : XW_BUILD_VERSION: 7_v017g_df
+2017/11/08 11:22:04 : XW_BUILD_DATE: Thu Jun 15 14:54:36 KST 2017
+2017/11/08 11:22:04 : XecureCrypto Version : 2.0.0.0
+2017/11/08 11:22:04 : XecureCSP    Version : 1.7.0.0
+2017/11/08 11:22:04 : XecureIO     Version : 1.7.0.0
+2017/11/08 11:22:04 : XecurePVD    Version : 1.7.0.0
+2017/11/08 11:22:04 : XecureASN    Version : 1.7.0.0
+2017/11/08 11:22:04 : XecureCRL    Version : 1.7.0.0
+2017/11/08 11:22:04 : XecureLDAP   Version : 1.7.1.0
+2017/11/08 11:22:04 : XecureOCSP   Version : 1.7.0.0
+2017/11/08 11:22:04 : XecurePKC    Version : 1.7.0.0
+2017/11/08 11:22:04 : XecurePKCS5  Version : 1.7.0.1
+2017/11/08 11:22:04 : XecurePKCS7  Version : 1.7.0.1
+2017/11/08 11:22:04 : XecurePKCS8  Version : 1.7.0.0
+2017/11/08 11:22:04 : XecurePKCS12 Version : 1.7.0.1
+2017/11/08 11:22:04 : XecureTSP    Version : 1.7.0.0
+2017/11/08 11:22:04 : XecureRAS    Version : RAS_VERSION: 1.6.0.0
+2017/11/08 11:22:04 : XecureCAS    Version : CAS_VERSION: 1.6.0.0
+2017/11/08 11:22:04 : XecureRMP    Version : RMP_VERSION: 1.6.0.0
+2017/11/08 11:22:04 : license verified successfully
+
+2017/11/08 11:22:04 : XecureLib.ServerCert public key length: [1024]
+2017/11/08 11:22:04 : XecureLib.ServerCert Serial: [0db6]
+2017/11/08 11:22:04 : XecureLib.ServerCert Validation From[2017-10-24 15:27:04] To[2018-10-31 15:27:04]
+2017/11/08 11:22:04 : XecureLib.set_SetServerKeyPWD : Server Cert/Key success
+2017/11/08 11:22:04 : XecureLib.set_TSACertificate : DN[] ID[] PWD[]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=LicensedCA,o=yessign,c=kr] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,203.233.91.35:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA,ou=licensedCA,o=KICA,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR] OPT[0:0] LDAP[ds.nca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:22:04 : XecureLib.set_SetUseRmpAgent : success (value : 0)
+2017/11/08 11:28:45 : XecureConfig : configuration file path[/tmax/XecureConf/xecure_servlet.conf]
+2017/11/08 11:28:45 : XecureConfig : license file path[/tmax/XecureConf/license_xw.exp]
+2017/11/08 11:28:45 : XecureConfig settings : 
+General-licenseFileLocation : 
+General-logDir : /tmax/hsecure/xecureweb_ver7/log
+General-logFile : java
+General-logFileSchedule : null
+General-logLevel : 2
+General-VIDTimeout : 180
+General-useSIDCookie : false
+General-cookieDomainName : 
+General-useStartSession : false
+General-responseBufferSize : 10240
+General-errorPageURL : /XecureObject/xecure_error.html
+General-clientVersion : 4,0,2,3
+General-usePageCharset : false
+General-xgateConnectTimeout : 30
+General-ldapConnectTimeout : 30
+General-decScriptLineLength : -1
+Certificate-certPolicy : any-policy
+Certificate-rootStoreDir : /tmax/hsecure/xecureweb_ver7/certstore
+Certificate-serverCertDN : e=KEITI@co.kr,cn=KEITI,ou=KEITI,o=KEITI,c=KR
+Certificate-serverKeyPwd : null
+Certificate-useHSM : false
+Certificate-slotID : 0
+Certificate-encPIN : null
+Certificate-keyObjectID : 0
+Certificate-certObjectID : 0
+RmpCert-useRmp : 0
+RmpCert-DN : null
+RmpCert-keyPwd : null
+RmpCert-useHSM : false
+RmpCert-slotID : 0
+RmpCert-encPIN : null
+RmpCert-keyObjectID : 0
+RmpCert-certObjectID : 0
+RmpCert-useRmpAgent : 0
+PdaSettings-transferMode : none
+SFRA-addr : null
+SFRA-addrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+signGateAddr : null
+signGateAddrPort : 0
+signKoreaAddr : null
+signKoreaAddrPort : 0
+crossCertAddr : null
+crossCertAddrPort : 0
+tradeSignAddr : null
+tradeSignAddrPort : 0
+ncaSignAddr : null
+ncaSignAddrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+PSFRA-addr : null
+PSFRA-addrPort : 0
+PSFRA-socketTimeOut : 30
+PSFRA-serverCertFile : null
+PSFRA-serverKeyFile : null
+PSFRA-raCertFile : null
+PSFRA-caCertFile : null
+XECURERA-DN : null
+XECURERA-keyPwd : null
+XECURERA-addr : null
+XECURERA-addrPort : 0
+XECURERA-raType : 0
+XECURERA-rmpType : 0
+XECURECA-DN : null
+XECURECA-keyPwd : null
+XECURECA-useHSM : false
+XECURECA-slotID : 0
+XECURECA-encPIN : null
+XECURECA-keyObjectID : 0
+XECURECA-certObjectID : 0
+XECURECA-addr : null
+XECURECA-addrPort : 0
+XECURECA-caType : 0
+XECURECA-carmpType : 0
+XECURECA-carmpSocketTimeOut : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+AuthorizedCertificateSettings : //cn=yessignCA,ou=LicensedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,203.233.91.35:389//cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=signGATE CA,ou=licensedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.signgate.com:389//cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR;0;0;211.35.96.26:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.signkorea.com:389//cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ds.nca.or.kr:389//cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.nca.or.kr:389,ds.nca.or.kr:389//cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.crosscert.com:389//cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.tradesign.net:389//cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389
+TSA-Cert : null
+TSA-Cert-Serial : null
+TSA-ID : null
+TSA-Pwd : null
+TSA-IP : null
+TSA-Port : 0
+HashValue : null
+HashCount : 0
+IPCount : 0
+E2E e2eParam : none
+E2E prefix : null
+E2E prefix2 : null
+E2E cutPrefix : false
+E2ECUST e2eCustClass : null
+E2ECUST e2eCustMethod : null
+E2ECUST e2eCustConfig : null
+E2ECUST e2eCustOnly : true
+AnySignMAC anysign_mac : 
+
+2017/11/08 11:28:45 : XW_BUILD_VERSION: 7_v017g_df
+2017/11/08 11:28:45 : XW_BUILD_DATE: Thu Jun 15 14:54:36 KST 2017
+2017/11/08 11:28:45 : XecureCrypto Version : 2.0.0.0
+2017/11/08 11:28:45 : XecureCSP    Version : 1.7.0.0
+2017/11/08 11:28:45 : XecureIO     Version : 1.7.0.0
+2017/11/08 11:28:45 : XecurePVD    Version : 1.7.0.0
+2017/11/08 11:28:45 : XecureASN    Version : 1.7.0.0
+2017/11/08 11:28:45 : XecureCRL    Version : 1.7.0.0
+2017/11/08 11:28:45 : XecureLDAP   Version : 1.7.1.0
+2017/11/08 11:28:45 : XecureOCSP   Version : 1.7.0.0
+2017/11/08 11:28:45 : XecurePKC    Version : 1.7.0.0
+2017/11/08 11:28:45 : XecurePKCS5  Version : 1.7.0.1
+2017/11/08 11:28:45 : XecurePKCS7  Version : 1.7.0.1
+2017/11/08 11:28:45 : XecurePKCS8  Version : 1.7.0.0
+2017/11/08 11:28:45 : XecurePKCS12 Version : 1.7.0.1
+2017/11/08 11:28:45 : XecureTSP    Version : 1.7.0.0
+2017/11/08 11:28:45 : XecureRAS    Version : RAS_VERSION: 1.6.0.0
+2017/11/08 11:28:45 : XecureCAS    Version : CAS_VERSION: 1.6.0.0
+2017/11/08 11:28:45 : XecureRMP    Version : RMP_VERSION: 1.6.0.0
+2017/11/08 11:28:45 : license verified successfully
+
+2017/11/08 11:28:45 : XecureLib.ServerCert public key length: [1024]
+2017/11/08 11:28:45 : XecureLib.ServerCert Serial: [0db6]
+2017/11/08 11:28:45 : XecureLib.ServerCert Validation From[2017-10-24 15:27:04] To[2018-10-31 15:27:04]
+2017/11/08 11:28:45 : XecureLib.set_SetServerKeyPWD : Server Cert/Key success
+2017/11/08 11:28:45 : XecureLib.set_TSACertificate : DN[] ID[] PWD[]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=LicensedCA,o=yessign,c=kr] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,203.233.91.35:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA,ou=licensedCA,o=KICA,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR] OPT[0:0] LDAP[ds.nca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:28:45 : XecureLib.set_SetUseRmpAgent : success (value : 0)
+2017/11/08 11:45:49 : XecureConfig : configuration file path[/tmax/XecureConf/xecure_servlet.conf]
+2017/11/08 11:45:49 : XecureConfig : license file path[/tmax/XecureConf/license_xw.exp]
+2017/11/08 11:45:49 : XecureConfig settings : 
+General-licenseFileLocation : 
+General-logDir : /tmax/hsecure/xecureweb_ver7/log
+General-logFile : java
+General-logFileSchedule : null
+General-logLevel : 2
+General-VIDTimeout : 180
+General-useSIDCookie : false
+General-cookieDomainName : 
+General-useStartSession : false
+General-responseBufferSize : 10240
+General-errorPageURL : /XecureObject/xecure_error.html
+General-clientVersion : 4,0,2,3
+General-usePageCharset : false
+General-xgateConnectTimeout : 30
+General-ldapConnectTimeout : 30
+General-decScriptLineLength : -1
+Certificate-certPolicy : any-policy
+Certificate-rootStoreDir : /tmax/hsecure/xecureweb_ver7/certstore
+Certificate-serverCertDN : e=KEITI@co.kr,cn=KEITI,ou=KEITI,o=KEITI,c=KR
+Certificate-serverKeyPwd : null
+Certificate-useHSM : false
+Certificate-slotID : 0
+Certificate-encPIN : null
+Certificate-keyObjectID : 0
+Certificate-certObjectID : 0
+RmpCert-useRmp : 0
+RmpCert-DN : null
+RmpCert-keyPwd : null
+RmpCert-useHSM : false
+RmpCert-slotID : 0
+RmpCert-encPIN : null
+RmpCert-keyObjectID : 0
+RmpCert-certObjectID : 0
+RmpCert-useRmpAgent : 0
+PdaSettings-transferMode : none
+SFRA-addr : null
+SFRA-addrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+signGateAddr : null
+signGateAddrPort : 0
+signKoreaAddr : null
+signKoreaAddrPort : 0
+crossCertAddr : null
+crossCertAddrPort : 0
+tradeSignAddr : null
+tradeSignAddrPort : 0
+ncaSignAddr : null
+ncaSignAddrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+PSFRA-addr : null
+PSFRA-addrPort : 0
+PSFRA-socketTimeOut : 30
+PSFRA-serverCertFile : null
+PSFRA-serverKeyFile : null
+PSFRA-raCertFile : null
+PSFRA-caCertFile : null
+XECURERA-DN : null
+XECURERA-keyPwd : null
+XECURERA-addr : null
+XECURERA-addrPort : 0
+XECURERA-raType : 0
+XECURERA-rmpType : 0
+XECURECA-DN : null
+XECURECA-keyPwd : null
+XECURECA-useHSM : false
+XECURECA-slotID : 0
+XECURECA-encPIN : null
+XECURECA-keyObjectID : 0
+XECURECA-certObjectID : 0
+XECURECA-addr : null
+XECURECA-addrPort : 0
+XECURECA-caType : 0
+XECURECA-carmpType : 0
+XECURECA-carmpSocketTimeOut : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+AuthorizedCertificateSettings : //cn=yessignCA,ou=LicensedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,203.233.91.35:389//cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=signGATE CA,ou=licensedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.signgate.com:389//cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR;0;0;211.35.96.26:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.signkorea.com:389//cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ds.nca.or.kr:389//cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.nca.or.kr:389,ds.nca.or.kr:389//cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.crosscert.com:389//cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.tradesign.net:389//cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389
+TSA-Cert : null
+TSA-Cert-Serial : null
+TSA-ID : null
+TSA-Pwd : null
+TSA-IP : null
+TSA-Port : 0
+HashValue : null
+HashCount : 0
+IPCount : 0
+E2E e2eParam : none
+E2E prefix : null
+E2E prefix2 : null
+E2E cutPrefix : false
+E2ECUST e2eCustClass : null
+E2ECUST e2eCustMethod : null
+E2ECUST e2eCustConfig : null
+E2ECUST e2eCustOnly : true
+AnySignMAC anysign_mac : 
+
+2017/11/08 11:45:49 : XW_BUILD_VERSION: 7_v017g_df
+2017/11/08 11:45:49 : XW_BUILD_DATE: Thu Jun 15 14:54:36 KST 2017
+2017/11/08 11:45:49 : XecureCrypto Version : 2.0.0.0
+2017/11/08 11:45:49 : XecureCSP    Version : 1.7.0.0
+2017/11/08 11:45:49 : XecureIO     Version : 1.7.0.0
+2017/11/08 11:45:49 : XecurePVD    Version : 1.7.0.0
+2017/11/08 11:45:49 : XecureASN    Version : 1.7.0.0
+2017/11/08 11:45:49 : XecureCRL    Version : 1.7.0.0
+2017/11/08 11:45:49 : XecureLDAP   Version : 1.7.1.0
+2017/11/08 11:45:49 : XecureOCSP   Version : 1.7.0.0
+2017/11/08 11:45:49 : XecurePKC    Version : 1.7.0.0
+2017/11/08 11:45:49 : XecurePKCS5  Version : 1.7.0.1
+2017/11/08 11:45:49 : XecurePKCS7  Version : 1.7.0.1
+2017/11/08 11:45:49 : XecurePKCS8  Version : 1.7.0.0
+2017/11/08 11:45:49 : XecurePKCS12 Version : 1.7.0.1
+2017/11/08 11:45:49 : XecureTSP    Version : 1.7.0.0
+2017/11/08 11:45:49 : XecureRAS    Version : RAS_VERSION: 1.6.0.0
+2017/11/08 11:45:49 : XecureCAS    Version : CAS_VERSION: 1.6.0.0
+2017/11/08 11:45:49 : XecureRMP    Version : RMP_VERSION: 1.6.0.0
+2017/11/08 11:45:49 : license verified successfully
+
+2017/11/08 11:45:49 : XecureLib.ServerCert public key length: [1024]
+2017/11/08 11:45:49 : XecureLib.ServerCert Serial: [0db6]
+2017/11/08 11:45:49 : XecureLib.ServerCert Validation From[2017-10-24 15:27:04] To[2018-10-31 15:27:04]
+2017/11/08 11:45:49 : XecureLib.set_SetServerKeyPWD : Server Cert/Key success
+2017/11/08 11:45:49 : XecureLib.set_TSACertificate : DN[] ID[] PWD[]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=LicensedCA,o=yessign,c=kr] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,203.233.91.35:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA,ou=licensedCA,o=KICA,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR] OPT[0:0] LDAP[ds.nca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:45:49 : XecureLib.set_SetUseRmpAgent : success (value : 0)
+2017/11/08 11:46:20 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 11:46:20 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 11:48:01 : XecureConfig : configuration file path[/tmax/XecureConf/xecure_servlet.conf]
+2017/11/08 11:48:01 : XecureConfig : license file path[/tmax/XecureConf/license_xw.exp]
+2017/11/08 11:48:01 : XecureConfig settings : 
+General-licenseFileLocation : 
+General-logDir : /tmax/hsecure/xecureweb_ver7/log
+General-logFile : java
+General-logFileSchedule : null
+General-logLevel : 2
+General-VIDTimeout : 180
+General-useSIDCookie : false
+General-cookieDomainName : 
+General-useStartSession : false
+General-responseBufferSize : 10240
+General-errorPageURL : /XecureObject/xecure_error.html
+General-clientVersion : 4,0,2,3
+General-usePageCharset : false
+General-xgateConnectTimeout : 30
+General-ldapConnectTimeout : 30
+General-decScriptLineLength : -1
+Certificate-certPolicy : any-policy
+Certificate-rootStoreDir : /tmax/hsecure/xecureweb_ver7/certstore
+Certificate-serverCertDN : e=KEITI@co.kr,cn=KEITI,ou=KEITI,o=KEITI,c=KR
+Certificate-serverKeyPwd : null
+Certificate-useHSM : false
+Certificate-slotID : 0
+Certificate-encPIN : null
+Certificate-keyObjectID : 0
+Certificate-certObjectID : 0
+RmpCert-useRmp : 0
+RmpCert-DN : null
+RmpCert-keyPwd : null
+RmpCert-useHSM : false
+RmpCert-slotID : 0
+RmpCert-encPIN : null
+RmpCert-keyObjectID : 0
+RmpCert-certObjectID : 0
+RmpCert-useRmpAgent : 0
+PdaSettings-transferMode : none
+SFRA-addr : null
+SFRA-addrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+signGateAddr : null
+signGateAddrPort : 0
+signKoreaAddr : null
+signKoreaAddrPort : 0
+crossCertAddr : null
+crossCertAddrPort : 0
+tradeSignAddr : null
+tradeSignAddrPort : 0
+ncaSignAddr : null
+ncaSignAddrPort : 0
+SFRA-sockTimeout : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+PSFRA-addr : null
+PSFRA-addrPort : 0
+PSFRA-socketTimeOut : 30
+PSFRA-serverCertFile : null
+PSFRA-serverKeyFile : null
+PSFRA-raCertFile : null
+PSFRA-caCertFile : null
+XECURERA-DN : null
+XECURERA-keyPwd : null
+XECURERA-addr : null
+XECURERA-addrPort : 0
+XECURERA-raType : 0
+XECURERA-rmpType : 0
+XECURECA-DN : null
+XECURECA-keyPwd : null
+XECURECA-useHSM : false
+XECURECA-slotID : 0
+XECURECA-encPIN : null
+XECURECA-keyObjectID : 0
+XECURECA-certObjectID : 0
+XECURECA-addr : null
+XECURECA-addrPort : 0
+XECURECA-caType : 0
+XECURECA-carmpType : 0
+XECURECA-carmpSocketTimeOut : 30
+SFRA-authorityCode : null
+SFRA-sfraAddr2 : null
+SFRA-sfraPort2 : 0
+AuthorizedCertificateSettings : //cn=yessignCA,ou=LicensedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,203.233.91.35:389//cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.yessign.or.kr:389,ds.yessign.or.kr:389//cn=signGATE CA,ou=licensedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.signgate.com:389//cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR;0;0;211.35.96.26:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.signgate.com:389,ldap.signgate.com:389//cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.signkorea.com:389//cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.signkorea.com:389,dir.signkorea.com:389//cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ds.nca.or.kr:389//cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ds.nca.or.kr:389,ds.nca.or.kr:389//cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,dir.crosscert.com:389//cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dir.crosscert.com:389,dir.crosscert.com:389//ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;dirsys.rootca.or.kr:389,ldap.tradesign.net:389//cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389//cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR;0;0;152.99.56.86:389;cn=Root CA,ou=GPKI,o=Government of Korea,c=KR;ldap.tradesign.net:389,ldap.tradesign.net:389
+TSA-Cert : null
+TSA-Cert-Serial : null
+TSA-ID : null
+TSA-Pwd : null
+TSA-IP : null
+TSA-Port : 0
+HashValue : null
+HashCount : 0
+IPCount : 0
+E2E e2eParam : none
+E2E prefix : null
+E2E prefix2 : null
+E2E cutPrefix : false
+E2ECUST e2eCustClass : null
+E2ECUST e2eCustMethod : null
+E2ECUST e2eCustConfig : null
+E2ECUST e2eCustOnly : true
+AnySignMAC anysign_mac : 
+
+2017/11/08 11:48:01 : XW_BUILD_VERSION: 7_v017g_df
+2017/11/08 11:48:01 : XW_BUILD_DATE: Thu Jun 15 14:54:36 KST 2017
+2017/11/08 11:48:01 : XecureCrypto Version : 2.0.0.0
+2017/11/08 11:48:01 : XecureCSP    Version : 1.7.0.0
+2017/11/08 11:48:01 : XecureIO     Version : 1.7.0.0
+2017/11/08 11:48:01 : XecurePVD    Version : 1.7.0.0
+2017/11/08 11:48:01 : XecureASN    Version : 1.7.0.0
+2017/11/08 11:48:01 : XecureCRL    Version : 1.7.0.0
+2017/11/08 11:48:01 : XecureLDAP   Version : 1.7.1.0
+2017/11/08 11:48:01 : XecureOCSP   Version : 1.7.0.0
+2017/11/08 11:48:01 : XecurePKC    Version : 1.7.0.0
+2017/11/08 11:48:01 : XecurePKCS5  Version : 1.7.0.1
+2017/11/08 11:48:01 : XecurePKCS7  Version : 1.7.0.1
+2017/11/08 11:48:01 : XecurePKCS8  Version : 1.7.0.0
+2017/11/08 11:48:01 : XecurePKCS12 Version : 1.7.0.1
+2017/11/08 11:48:01 : XecureTSP    Version : 1.7.0.0
+2017/11/08 11:48:01 : XecureRAS    Version : RAS_VERSION: 1.6.0.0
+2017/11/08 11:48:01 : XecureCAS    Version : CAS_VERSION: 1.6.0.0
+2017/11/08 11:48:01 : XecureRMP    Version : RMP_VERSION: 1.6.0.0
+2017/11/08 11:48:01 : license verified successfully
+
+2017/11/08 11:48:01 : XecureLib.ServerCert public key length: [1024]
+2017/11/08 11:48:01 : XecureLib.ServerCert Serial: [0db6]
+2017/11/08 11:48:01 : XecureLib.ServerCert Validation From[2017-10-24 15:27:04] To[2018-10-31 15:27:04]
+2017/11/08 11:48:01 : XecureLib.set_SetServerKeyPWD : Server Cert/Key success
+2017/11/08 11:48:01 : XecureLib.set_TSACertificate : DN[] ID[] PWD[]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=LicensedCA,o=yessign,c=kr] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,203.233.91.35:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 1,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=yessignCA Class 2,ou=AccreditedCA,o=yessign,c=kr] OPT[0:0] LDAP[ds.yessign.or.kr:389,ds.yessign.or.kr:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA,ou=licensedCA,o=KICA,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA2,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA4,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=signGATE CA5,ou=AccreditedCA,o=KICA,c=KR] OPT[0:0] LDAP[ldap.signgate.com:389,ldap.signgate.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=LicensedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA2,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=SignKorea CA3,ou=AccreditedCA,o=SignKorea,c=KR] OPT[0:0] LDAP[dir.signkorea.com:389,dir.signkorea.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=NCASign CA,ou=licensedCA,o=NCASign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=NCASignCA,ou=AccreditedCA,o=NCASign,c=KR] OPT[0:0] LDAP[ds.nca.or.kr:389,ds.nca.or.kr:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA,ou=licensedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=CrossCert Certificate Authority,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA2,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=CrossCertCA3,ou=AccreditedCA,o=CrossCert,c=KR] OPT[0:0] LDAP[dir.crosscert.com:389,dir.crosscert.com:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[ou=TradeSignCA,ou=LicensedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[dirsys.rootca.or.kr:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA2,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_acc_dn_list : CADN[cn=TradeSignCA3,ou=AccreditedCA,o=TradeSign,c=KR] OPT[0:0] LDAP[ldap.tradesign.net:389,ldap.tradesign.net:389] IP[:0]
+2017/11/08 11:48:01 : XecureLib.set_SetUseRmpAgent : success (value : 0)
+2017/11/08 11:48:37 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 11:48:37 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 11:49:19 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [79050],[Unmatched Identification Number]
+2017/11/08 11:49:19 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 11:50:42 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 11:50:42 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 14:43:13 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 14:43:13 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 14:44:40 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 14:44:40 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 14:45:00 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 14:45:00 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 14:47:52 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 14:47:52 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2017/11/08 14:48:11 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2017/11/08 14:48:11 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.

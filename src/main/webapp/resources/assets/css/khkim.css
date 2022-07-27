@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+a.btn:hover { text-decoration:none; }
+
+.tab_wrapper {clear:both;padding:5px 25px 0px 10px;height:33px;border-bottom:1px solid #adadad;margin-bottom:15px;}
+.tab_menu {float:left;width:100%;}
+.tab_menu li {float:left;padding:6px 20px 0;border:1px solid #d3d3d3;border-bottom:1px solid #adadad;font-size:11px;color:#777777;height:19px;margin-top:7px;	background: url(../../../images/cyberline/pms/btn/bg_tab_off.gif) repeat-x bottom center;letter-spacing:-1px;cursor:pointer;}
+.tab_wrapper.small .tab_menu li {padding: 2px 12px 0;}
+.tab_menu li:hover {color: #000;}
+.tab_menu li.on {border:1px solid #adadad;border-bottom:none;padding-top:11px;height:22px;margin-top:0px;font-family:"Nanum GothicExtraBold";color:#003896;background: #fff;font-size:13px;}
+.tab_wrapper.small .tab_menu li.on {padding-top:7px;}
+.tab_menu li.on:hover {border:1px solid #000;border-bottom:none;}
+
+
+.type_write table {
+	width: 100%;	
+}
+.type_write th {
+	font-weight: bold;
+	font-size:12px;
+	color:#616161;
+	text-align: center;
+	border-bottom: 1px solid #D9D9D9;
+	padding: 3px 0 3px 5px;
+	background:#f5f5f5;
+
+}
+.type_write td {
+	background: #FFFFFF;
+	border-bottom: 1px solid #D9D9D9;
+	margin: 1px;
+	text-align:left;
+	padding-left:5px;
+	height: 35px;
+	word-break: break-all;
+}
+
+.type_write td select {
+	margin-left: 5px;
+}
+
+.type_write td.attachFile {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.list_table_box > .type_info {padding:5px 0 10px 0;}
+
+.sep {
+	clear: none;	
+	margin-top:20px;
+}
+
+.searchTableBox{
+	margin-bottom:15px;
+}
+
+.searchTableBox select {
+     line-height:26px;
+     height:26px;
+     font-size:13px;
+     border:1px solid #D7D7D7;
+     margin:0px 3px;
+     padding: 0px 5px 0px 5px;     
+     background: url(../img/common/selectArrow.png) no-repeat right center #fff;
+     appearance: none;
+     color:#666;
+}
+
+fieldset{
+	border:0;
+}
+
+.searchTableBox select{
+	min-width:60px;
+}
+
+.table_small_list tbody tr:hover{
+	background:#eee;
+}
+
+.table_small_list tbody td a{
+	font-weight:bold;
+	cursor:pointer;
+}

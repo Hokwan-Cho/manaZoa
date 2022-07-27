@@ -1,0 +1,449 @@
+/* 공통 CSS */
+.section {
+	background-color:#fff;
+}
+
+body {
+	font-family: 'Noto Sans KR', sans-serif;-webkit-text-size-adjust:none;
+}
+
+ul, ol, li {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+.surveyTop {
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	padding: 0;
+	z-index: 300;
+}
+.btn_close{
+	z-index: 1000;
+    position: absolute;
+    top: 127px;
+    border: 1px solid #5499bb;
+    width: 100px;
+    height: 27px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #5499bb;
+    color: #fff;
+    right: 0px;
+}
+.span_font15{
+	font-size: 15px;
+}
+.btn_close2{
+	z-index: 1000;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #fff url(../img/arr_up.png) 100px 9px no-repeat;border: 1px solid #cac8d4;
+    color: #666;
+	font-size:0.8em;padding:3px 30px;margin:0 auto;margin-top:5px;
+}
+.btn_close3{
+	z-index: 1000;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #fff url(../img/arr_down.png) 100px 9px no-repeat;border: 1px solid #cac8d4;
+    color: #666;
+	font-size:0.8em;padding:3px 30px;margin:0 auto;margin-top:5px;
+}
+
+.surveyTitle {
+	margin: 0 auto;
+	width: 90%;
+	font-size: 1.2em;
+	background-color: #6f42c1;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	border: 3px solid #6f42c1;
+}
+
+.surveyInfo {
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 90%;
+	font-size: 1.0em;
+	background-color: #e8e5f2;
+	border-radius: 5px;
+	color: #444;
+	padding: 5px;
+	border: 3px solid #e8e5f2;
+}
+.surveyLogo {width:90%;margin:0 auto}
+
+
+.align_center {
+	text-align: center;
+}
+
+.input_txt_m {
+	height: 25px;
+	width: 50px;
+}
+.input_txt_100{
+	height:15px;
+	width:100px;
+}
+.input_txt_40{
+	height:15px;
+	width:40px;
+}
+.hospital_logo {
+	width: 200px;
+	float: left;
+}
+.kor_logo {
+	width: 160px;
+	float: right;
+	margin-top: 10px;
+}
+.surveyInfo ul li {
+	background: url(../img/dot.png) 0 7px no-repeat;
+	padding-left: 10px
+}
+
+.qest_wrap {
+	width: 90%;
+	border: 3px solid #5499bb;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 0px;
+	z-index: 1;
+	min-height: 550px;
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+.qest {
+	display: block;
+	font-size: 22px;
+	background: #5499bb;
+	color: #fff;
+	border-radius: 0 0 5px 5px;
+	padding: 0 0 4px 0;
+}
+
+.qest_no {
+	display: block;
+	text-align: center;
+	background: #5499bb;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 0;
+	font-size: 1.2em;
+}
+
+.qest_title {
+	background: url(../img/icon_q.png) 0 7px no-repeat;padding:10px 0 3px 35px;border-bottom:2px solid #5499bb;
+	font-size: 1.2em; text-align : left;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 10px;
+	text-align: left;
+}
+
+.qest_anwer_wrap {background: url(../img/icon_a.png) 0 7px no-repeat;padding:10px 0 5px 35px;
+	text-align: left;
+
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.ques_table {
+	width: 100%;
+	font-size: 1.0em;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.ques_table th {
+	background-color: #d6f1fe;
+	text-align: center;
+	color: #1f678a;
+	height: 20px;
+	border: 1px solid #d6d6d6;
+}
+
+.ques_table td {
+	height: 20px;
+	border: 1px solid #d6d6d6;
+	font-size: 1.0em;
+}
+
+.ques_table tr:nth-child(2n) {
+	background-color: #f0f9fe;
+}
+
+.qest_btn_group {
+	text-align: center;
+	padding-bottom: 20px
+}
+
+textarea {
+	resize: none;
+	overflow-y: auto;
+	width: 95%;
+	height: 60px;
+}
+.txt_area_min_60{
+	min-height: 80px;
+}
+
+.input_txt {
+	height: 16px;
+	width: 90%;
+	height: 20px;
+}
+
+.input_txt_s {
+	height: 15px;
+	width: 70px;
+}
+.input_txt_m{
+	height: 15px;
+	width: 200px;
+}
+.quest_end {
+	color: #fff;
+	background: #F361A6;
+	border-radius: 5px;
+	padding: 10px 0;
+	font-size: 15px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.btn_prev {
+	position: relative;
+	display: inline-block;
+	width: 70px;
+	height: 28px;
+	padding: 6px 10px;
+	border-left: 0;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #1c99d7;
+}
+
+.btn_next {
+	position: relative;
+	display: inline-block;
+	width: 70px;
+	height: 28px;
+	padding: 6px 10px;
+	border-left: 0;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #1c99d7;
+}
+.view_quest_no{
+	display:none;
+}
+.subQuest {
+    margin-top:10px;
+	display: none;
+}
+
+.subAnwer {
+	display: none;
+}
+
+#pp-nav {
+	display: block;
+}
+
+.quest_red {
+	color: #000;
+	background: #54bbae;
+	border-radius: 5px;
+	padding: 5px 0;
+	font-size: 0.8em;
+	margin-top: 5px;
+	text-align: center;
+}
+/* 인쇄시 표지 */
+.survey_cover{
+	margin:0 auto;width:700px;display:none;
+}
+.cover_table{
+	border-collapse: collapse ;
+	width:80%;margin:0 auto;
+}
+.cover_table td{
+	border: 1px solid black;
+	height: 70px;
+	padding-left:10px;
+}
+.survey_cover_img{
+	height:150px;position:relative;
+}
+.survey_cover_img img{
+	position:absolute;bottom:10px;width:300px;
+}
+.survey_cover_title{
+	border-top:6px solid black;border-bottom:6px solid black;margin:0 auto;text-align:center;font-size:40px;padding:40px;
+}
+.survey_cover_wrap{
+	width:100%;height:530px;position:relative;padding-top:160px;
+}
+.survey_cover_bottm_img{
+	height:50px;width:100%;text-align:center;margin-top:30px;
+}
+.survey_kind_of {
+	font-size:30px;width:100%;height:50px;text-align:center;margin-bottom:30px;
+}
+.navigation {
+	width:50px;height:100%;position:absolute;right:5px;top:35%;z-index:9999;
+}
+.navigation li{
+	margin-top: 6px;
+}
+.navi-dot{
+	border-radius: 50%;width:14px;height:14px;display:block;background-color: #D5D5D5;
+}
+.active-dot{
+	background-color: #747474;
+}
+@media ( min-width : 820px) {
+	
+	.surveyTitle {
+		width: 800px;
+	}
+	.surveyInfo {
+		width: 800px;
+	}
+	.surveyLogo {
+		width: 800px;
+		margin-top: 10px;
+		padding: 5px;
+	}
+	.qest_wrap {
+		width: 800px;
+	}
+
+	
+}
+
+.surveyLogo {
+	height: 50px;
+}
+
+@media ( min-width : 640px) {
+	.surveyInfo ul li {
+		float: left;
+		overflow: hidden;
+		width: 48%;
+	}
+	.surveyInfo ul {
+		overflow: hidden
+	}
+	.qest_wrap {
+		margin-top: 210px;
+	}
+	.subQuest{
+		font-size: 15px;
+	}
+	label{
+		font-size: 15px;
+	}
+	.quest_red{
+		font-size: 15px;
+	}
+	.surveyTitle {
+		font-size: 18px;
+	}
+	
+	.surveyInfo {
+		font-size: 16px;
+	}
+	.ques_table th {
+		font-size: 15px;
+	}
+	.ques_table td {
+		font-size: 15px;
+	}
+	.qest_title{
+		font-size:15px;
+	}
+
+}
+
+@media ( max-width : 820px) {
+	.kor_logo {
+		width: 130px;
+		float: right;
+		margin-top: 8px;
+		margin-right: 16px;
+	}
+	.hospital_logo {
+		height: 40px;
+		width: 130px;
+		float: left;
+		margin-top: 6px;
+		margin-left: 7px;
+	}
+	.qest_wrap {
+		margin-top: 220px;
+	}
+	.navigation {
+		right:-25px;
+	}
+	.fp-responsive{
+		width:95%;
+	}
+	.navi-dot{
+		border-radius: 50%;width:10px;height:10px;display:block;background-color: #D5D5D5;
+	}
+	.active-dot{
+		background-color: #747474;
+	}
+	.input_txt_m{
+		height: 15px;
+		width: 60px;
+	}
+	.input_txt_100{
+		height:15px;
+		width:50px;
+	}
+	.input_txt_40{
+		height:15px;
+		width:20px;
+	}
+	/* .navigation {
+		width:200px;height:20px;position:absolute;top:90%;z-index:9999;left:24.5%;
+	}
+	.navigation li{
+		float:left;margin-left:3px;
+	}
+	.navi-dot{
+		border-radius: 50%;width:12px;height:12px;display:block;background-color: #D5D5D5;
+	}
+	.active-dot{
+		background-color: #747474;
+	} */
+}
+
+/* 가로모드 */
+@media only screen and (orientation: landscape) {
+    .navigation {
+		width:50px;height:100%;position:absolute;right:-15px;top:28%;z-index:9999;
+	}
+	
+}

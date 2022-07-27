@@ -1,0 +1,809 @@
+/* 怨듯넻 CSS */
+html, body{
+	overflow: visible;
+}
+#loading {
+ display:none;
+ width: 100%;  
+ height: 100%;  
+ top: 0px;
+ left: 0px;
+ position: fixed;  
+ opacity: 0.7;  
+ background-color: #fff;  
+ z-index: 99;  
+ text-align: center; } 
+  
+#loading-image {  
+ margin: 0 auto;
+ z-index: 100;
+ margin-top: 400px; 
+}
+
+.slide{
+	margin-top: -200px;
+}
+.slide:nth-child(0){
+	margin-top: -150px;
+}
+.section {
+	background-color:#fff;
+	padding-top: 148px;
+}
+
+body {
+	font-family: 'Noto Sans KR', sans-serif;-webkit-text-size-adjust:none;
+}
+
+ul, ol, li {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+.surveyTop {
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	padding: 0;
+	z-index: 300;
+	top: 0px !important;
+}
+.btn_close{
+	z-index: 1000;
+    position: absolute;
+    top: 127px;
+    border: 1px solid #5499bb;
+    width: 100px;
+    height: 27px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #5499bb;
+    color: #fff;
+    right: 0px;
+    display:none;
+}
+.subQuestWrap{
+	display: block;
+}
+.align_center{
+	text-align:center;
+}
+.font15{
+	font-size: 15px;
+}
+.font13{
+	font-size: 13px;
+}
+.span_font15{
+	font-size: 15px;
+}
+.span_font13{
+	font-size: 13px;
+}
+.input_txt_hybrid{
+	width: 3rem;
+}
+.btn_close2{
+	z-index: 1000;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #fff url(../img/arr_up.png) 100px 9px no-repeat;border: 1px solid #cac8d4;
+    color: #666;
+	font-size:0.8em;padding:3px 30px;margin:0 auto;margin-top:5px;
+}
+.btn_close3{
+	z-index: 1000;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #fff url(../img/arr_down.png) 100px 9px no-repeat;border: 1px solid #cac8d4;
+    color: #666;
+	font-size:0.8em;padding:3px 30px;margin:0 auto;margin-top:5px;
+}
+
+.surveyTitle {
+	margin: 0 auto;
+	width: 90%;
+	font-size: 0.8em;
+	background-color: #6f42c1;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	border: 3px solid #6f42c1;
+}
+.table_img{
+	width: 100%;
+}
+.surveyInfo {
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 90%;
+	font-size: 0.7em;
+	background-color: #e8e5f2;
+	border-radius: 5px;
+	color: #444;
+	padding: 5px;
+	border: 3px solid #e8e5f2;
+}
+.surveyLogo {width:90%;margin:0 auto}
+.survey_img_check{
+	position: absolute;
+	width: 115px;
+	height: 71px;
+	background-image: url('/resources/img/img_checked.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	opacity: 0.5;
+	-webkit-print-color-adjust: exact;
+	printer-colors: exact;
+	color-adjust: exact;
+}
+.uncheck{
+	opacity: 0;
+}
+.survey_img_cover{
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	width: 115px;
+	height: 71px;
+	-webkit-print-color-adjust: exact;
+	printer-colors: exact;
+	color-adjust: exact;
+}
+.align_center {
+	text-align: center;
+}
+
+.input_txt_m {
+	height: 25px;
+	width: 50px;
+}
+.input_txt_100{
+	height:15px;
+	width:100px;
+}
+.input_txt_40{
+	height:15px;
+	width:40px;
+}
+.hospital_logo {
+	width: 200px;
+	float: left;
+}
+.kor_logo {
+	width: 160px;
+	float: right;
+	margin-top: 10px;
+}
+.surveyInfo ul li {
+	background: url(../img/dot.png) 0 7px no-repeat;
+	padding-left: 10px
+}
+
+.qest_wrap {
+	width: 90%;
+	border: 0px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 230px;
+	z-index: 1;
+	min-height: 100px;
+	padding: 5px;
+	font-size: 0.8em;
+}
+.subQuestWrap{
+	display: block !important;
+}
+
+.qest {
+	display: none;
+	font-size: 22px;
+	background: #5499bb;
+	color: #fff;
+	border-radius: 0 0 5px 5px;
+	padding: 0 0 4px 0;
+}
+
+.qest_no {
+	display: none;
+	text-align: center;
+	background: #5499bb;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 0;
+	font-size: 1.0em;
+}
+
+.qest_title {
+	background: url(../img/icon_q.png) 0 7px no-repeat;padding:10px 0 3px 35px;border-bottom:2px solid #5499bb;
+	font-size: 15px !important;
+	text-align : left;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-left: 10px;
+	text-align: left;
+	-webkit-print-color-adjust:exact;
+}
+label, td, th{
+	font-size: 15px !important;
+}
+.qest_anwer_wrap {background: url(../img/icon_a.png) 0 7px no-repeat;padding:10px 0 5px 35px;
+	text-align: left;
+
+	margin: 0 auto;
+	margin-top: 0px !important;
+	margin-left: 10px;
+}
+
+.bg-white{
+	background-color: white;
+}
+
+.ques_table {
+	width: 100%;
+	font-size: 1.0em;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.ques_table th {
+	background-color: #d6f1fe;
+	text-align: center;
+	color: #1f678a;
+	height: 20px;
+	border: 1px solid #d6d6d6;
+}
+
+.ques_table td {
+	height: 20px;
+	border: 1px solid #d6d6d6;
+	font-size: 1.0em;
+}
+
+.ques_table tr:nth-child(2n) {
+	background-color: #f0f9fe;
+}
+
+.ques_table2 {
+	width: 100%;
+	font-size: 1.0em;
+	line-height: 1.7;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.ques_table2 th {
+	background-color: #d6f1fe;
+	text-align: center;
+	color: #1f678a;
+	height: 20px;
+	border: 1px solid #d6d6d6;
+}
+
+.ques_table2 td {
+	height: 20px;
+	border: 1px solid #d6d6d6;
+	font-size: 1.0em;
+}
+
+.ques_table2 .colored {
+	background-color: #f0f9fe;
+}
+
+.qest_btn_group {
+	margin-top:10px;
+	text-align: center;
+	padding-bottom: 20px;
+	display:none;
+}
+
+textarea {
+	resize: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 85%;
+	height: 60px;
+	border: 0px;
+}
+.txt_area_min_60{
+	min-height: 80px;
+}
+
+.input_txt {
+	width: 80%;
+	height: 20px;
+}
+
+.input_txt_s {
+	height: 15px;
+	width: 70px;
+}
+.input_txt_m{
+	height: 15px;
+	width: 200px;
+}
+.quest_end {
+	color: #fff;
+	background: #F361A6;
+	border-radius: 5px;
+	padding: 10px 0;
+	font-size: 0.8em;
+	margin-top: 5px;
+	text-align: center;
+	display:none;
+}
+
+.btn_prev {
+	position: relative;
+	display: inline-block;
+	width: 70px;
+	height: 28px;
+	border-left: 0;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #1c99d7;
+}
+
+.btn_next {
+	position: relative;
+	display: inline-block;
+	width: 70px;
+	height: 28px;
+	border-left: 0;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #1c99d7;
+}
+.btn_survey_end {
+	position: relative;
+	display: inline-block;
+	width: 80px;
+	height: 28px;
+	margin-left: 40px;
+	border-left: 0;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #F361A6;
+}
+.view-survey-menu-btn.active{
+	background-color: #12C9FF;
+	color: #fff;
+	border: 0;
+}
+
+.view-survey-menu-btn{
+	margin-top: 1.7rem;
+	font-size: 1em;
+	padding:8px;
+	margin-left: 0;
+    background-color: #FFF;
+    color: #222;
+    border: 1px solid #222;
+    box-sizing: border-box;
+}
+.btn_survey_move_next {
+	position: relative;
+	display: inline-block;
+	width: 75px;
+	height: 30px;
+	border-left: 0;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #F361A6;
+}
+.btn_view_close{
+	position: relative;
+	display: inline-block;
+	width: 75px;
+	height: 30px;
+	border-left: 0;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #1c99d7;
+}
+.btn_view_print{
+	position: relative;
+	display: inline-block;
+	width: 75px;
+	height: 30px;
+	border-left: 0;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #54bba2;
+}
+.btn_preview{
+	position: relative;
+	display: inline-block;
+	width: 75px;
+	height: 30px;
+	border-left: 0;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #F361A6;
+}
+.view_quest_no{
+	display:inline-block;
+}
+
+.subQuest {
+    margin-top:10px;
+    font-size: 15px !important;
+}
+
+.subAnwer {
+	
+}
+
+#pp-nav {
+	display: block;
+}
+
+.quest_red {
+	color: #000;
+	background: #54bbae;
+	border-radius: 5px;
+	padding: 5px 0;
+	font-size: 0.8em;
+	margin-top: 5px;
+	text-align: center;
+	display:none;
+}
+/* �씤�뇙�떆 �몴吏� */
+.survey_cover{
+	margin:0 auto;width:700px;display:none;
+}
+.cover_table{
+	border-collapse: collapse ;
+	width:80%;margin:0 auto;
+}
+.cover_table td{
+	border: 1px solid black;
+	height: 70px;
+	padding-left:10px;
+}
+.survey_cover_img{
+	height:150px;position:relative;
+}
+.survey_cover_img img{
+	position:absolute;bottom:10px;width:300px;
+}
+.survey_cover_title{
+	border-top:6px solid black;border-bottom:6px solid black;margin:0 auto;text-align:center;font-size:40px;padding:40px;
+}
+.survey_cover_wrap{
+	width:100%;height:530px;position:relative;padding-top:160px;
+}
+.survey_cover_bottm_img{
+	height:50px;width:100%;text-align:center;margin-top:30px;
+}
+.survey_kind_of {
+	font-size:30px;width:100%;height:50px;text-align:center;margin-bottom:30px;
+}
+.navigation {
+	width:50px;height:100%;position:absolute;right:5px;top:35%;z-index:9999;display:none;
+}
+.navigation li{
+	margin-top: 6px;
+}
+.navi-dot{
+	border-radius: 50%;width:17px;height:17px;display:block;background-color: #D5D5D5;
+}
+.active-dot{
+	background-color: #747474;
+}
+
+/* PC */
+@media ( min-width : 820px) {
+	
+	.surveyTitle {
+		width: 800px;
+	}
+	.surveyInfo {
+		width: 800px;
+	}
+	.surveyLogo {
+		width: 800px;
+		margin-top: 10px;
+		padding: 5px;
+	}
+	.qest_wrap {
+		width: 800px;
+	}
+
+	
+}
+
+.surveyLogo {
+	height: 50px;
+}
+
+.input_check, .input_radio{
+	width : 15px;
+	height : 15px;
+	-webkit-print-color-adjust: exact;
+}
+
+
+/* 각 모바일 해상도 디바이스별 CSS 설정 */ 
+/* iphoneX */
+@media (min-height: 812px) and (max-height: 812px) {
+	.input_txt_hybrid{
+		font-size: 1.5rem;
+	}
+	
+}
+/* 갤럭시S5 */
+@media (min-height: 640px) and (max-height: 640px) {
+	
+	.input_txt_hybrid{
+		width: 1rem;
+	}
+}
+/* iphone5 */
+@media (min-height: 568px) and (max-height: 568px) {
+	
+	.input_txt_hybrid{
+		width: 1rem;
+	}
+}
+/* iphone6/7/8 */
+@media (min-height: 667px) and (max-height: 667px) {
+	
+}
+/* iphone6/7/8 + */
+@media (min-height: 736px) and (max-height: 736px) {
+	
+}
+/* iphoneX/6/7/8 - 가로모드 */
+@media (min-height: 375px) and (max-height: 375px) {
+	
+}
+/* 갤럭시S5 - 가로모드 */
+@media (min-height: 360px) and (max-height: 360px) {
+	
+	.input_txt_hybrid{
+		width: 1.5rem;
+	}
+}
+/* iphone5 - 가로모드 */
+@media (min-height: 320px) and (max-height: 320px) {
+	
+	.input_txt_hybrid{
+		width: 1.5rem;
+	}
+}
+/* iphone6/7/8 + - 가로모드 */
+@media (min-height: 414px) and (max-height: 414px) {
+	
+}
+/* @media ( max-width : 820px) {
+	.span_font15{
+		font-size: 0.8rem;
+	}
+	.kor_logo {
+		width: 130px;
+		float: right;
+		margin-top: 8px;
+		margin-right: 16px;
+	}
+	.hospital_logo {
+		height: 40px;
+		width: 130px;
+		float: left;
+		margin-top: 6px;
+		margin-left: 7px;
+	}
+	.qest_anwer_wrap {
+		background: none;
+		padding:0px;
+	}
+	
+	.navigation {
+		right:-25px;
+	}
+	.fp-responsive{
+		width:100%;
+	}
+	.navi-dot{
+		border-radius: 50%;width:14px;height:14px;display:block;background-color: #D5D5D5;
+	}
+	.active-dot{
+		background-color: #747474;
+	}
+	.input_txt_m{
+		height: 15px;
+		width: 60px;
+	}
+	.input_txt_100{
+		height:15px;
+		width:50px;
+	}
+	.input_txt_40{
+		height:15px;
+		width:20px;
+	}
+} */
+
+
+
+/* PC 설문 팝업 기준  */
+@media ( min-width : 640px) {
+	.qest_anwer_wrap {
+		background: none;
+		padding:0px;
+	}
+	.input_txt,
+	.input_txt_m,
+	.input_txt_hybrid{
+		height: 20px;
+		font-size: .9rem;
+	}
+	.input_txt_m {
+		width: 60px !important;
+	}
+	.input_txt_100{
+		height:18px;
+		width:50px;
+		font-size: .9rem;
+	}
+	.input_txt_40{
+		height:15px;
+		width:20px;
+	}
+	.input_txt_100.txt_fullsize {
+		width: 70% !important;
+	}
+	
+	
+	.surveyInfo ul {
+		display: flex;	
+		padding-left: 10px;
+	}
+	.surveyInfo ul li {
+		width: 55%;
+		font-size: .8rem;
+	}
+	.qest_title {
+		font-size: 1rem;
+	}
+	.label_txt{
+		line-height: 43px;
+	}
+	.label_txt,
+	.quest_red,
+	.quest_end,
+	.ques_table td,
+	.span_font15 {
+		font-size: 15px;
+	}
+	.surveyTitle {
+		font-size: 18px;
+	}
+	.ques_table th {
+		font-size: 14px;
+	}
+	.span_font13,
+	textarea {
+		font-size: .9rem;
+	}
+	.txt_area_s {
+		height: 60px !important;
+	}  
+}
+
+/* 갤럭시 탭 S6 라이트 (1334 * 800) */
+@media ( min-width : 1334px) {
+	.surveyLogo,
+	.surveyTitle,
+	.surveyInfo,
+	.qest_wrap {
+		width: 1000px;
+	}
+	
+	.surveyTitle {
+	    font-size: 1.5rem;
+	}
+	.surveyInfo ul li {
+	    background: url(../img/dot.png) 5px 10px no-repeat;
+	    padding-left: 15px;
+	    font-size: 1rem;
+	}
+	.qest_title, 
+	.subQuest {
+		color: #333;
+	    font-size: 1.2rem !important;
+	}
+	.subQuest {
+		margin: 20px 0 5px;
+	}
+	label,
+	.label_txt, 
+	.span_font15 {
+	    font-size: 1.1rem !important;
+	    color: #333;
+	}
+	.span_font13 {
+		font-size: 1rem;
+    	line-height: 30px;
+	}
+	textarea {
+		font-size: 1.2rem;
+	}
+	.input_check, .input_radio {
+ 	    width: 18px;
+    	height: 18px;
+	}
+	.ques_table th,
+	.ques_table td {
+	    font-size: 1.1rem !important;
+	}
+	.ques_table td {
+	    color: #333;
+	}
+	
+	.view-survey-menu-btn{
+		margin-top: 2rem;
+		padding: 10px;
+	    font-size: 1.2rem;
+	}
+	.view-survey-menu-btn:last-of-type{
+		margin-left: 10px;
+	}
+	.btn_prev, 
+	.btn_next, 
+	.btn_survey_end, 
+	.btn_survey_move_next, 
+	.btn_view_close, 
+	.btn_view_print, 
+	.btn_preview {
+	    width: 75px;
+    	height: 32px;
+    	margin-top: 40px;
+	    font-size: 1rem;
+	}
+	.btn_survey_end{
+		width: 85px;
+	}
+}
+
+
+
+
+/* 媛�濡쒕え�뱶 */
+@media only screen and (orientation: landscape) {
+    .navigation {
+		width:50px;height:100%;position:absolute;right:-15px;top:28%;z-index:9999;
+	}
+	
+}

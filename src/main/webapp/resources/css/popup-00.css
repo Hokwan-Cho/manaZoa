@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+body {font-family:'gulim', sans-serif;font-size:14px; color: #555; /*text-align:justify;*/line-height:1.5em; -webkit-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -ms-text-size-adjust: 100%;letter-spacing:-0.6px;}
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, table, tr, th, td, a, img, select{margin:0; padding:0;/* font-size:inherit;*/}
+h1, h2, h3, h4, h5, h6{font-weight: normal; }
+em {font-style:normal;}
+ul, ol, li{list-style: none}
+fieldset, img{border: none}
+a { color:inherit; text-decoration:none;}
+a:hover, a:active {text-decoration: none; color:inherit;}
+table {margin:0;padding:0;border-spacing:0;border:0;border-collapse:collapse;}
+
+.warp {padding:20px;position:relative}
+
+
+.ml20 {margin-left:20px}
+
+.view-type1 { font-size:12px; border:2px solid #93b3da;width:100%;margin-top:20px}
+.view-type1 tr:last-child th,.view-type1 tr:last-child td {border-bottom:2px solid #93b3da;}
+.view-type1 tr:first-child th {background:#d1e1f5;}
+.view-type1  tr th:first-child {width:200px}
+.view-type1  tr th {background:#ecf5ff; color:#333; border:1px solid #cbddf3; font-weight:normal; text-align:center;  padding:10px 5px;}
+.view-type1  tr th.topline {background:#d1e1f5;}
+.view-type1  tr th.none {background:#fff}
+.view-type1  tr th.rightline {border-right:2px solid #93b3da;}
+.view-type1  tr.footline th {border-bottom:1px solid #93b3da;}
+.view-type1  tr.footline td {border-bottom:1px solid #93b3da;}
+.view-type1  tr th.a-right {text-align:right}
+.view-type1  tr td.rightline {border-right:2px solid #93b3da;}
+.view-type1  td {background-color:#fff; color:#777; vertical-align:middle; border:1px solid #e5ecf6; text-align:center;padding:3px 5px;overflow:hidden;}
+.view-type1  td.text-left {text-align:left;padding-left:10px}
+.view-type1 tr.colbox td {background-color:#f4fafc}
+.view-type1 tr.colbox2 td {background-color:#fefeea}
+
+
+.view-type2 { font-size:12px; border:2px solid #93b3da;width:100%;margin-top:20px}
+.view-type2  tr th {background:#d1e1f5; color:#333; border:1px solid #93b3da; font-weight:normal; text-align:center;  padding:10px 5px;}
+.view-type2  tr th.color1 {background:#ecf5ff;}
+.view-type2  tr th.rightline {border-right:2px solid #93b3da;}
+.view-type2  tr th.nofoot {border-bottom:1px solid #c5daf3;}
+.view-type2  tr.footline th,.view-type2  tr.footline td {border-bottom:1px solid #93b3da;}
+
+.view-type2  tr td.rightline {border-right:2px solid #93b3da;}
+.view-type2  td {background-color:#fff; color:#777; vertical-align:middle; border:1px solid #dae2ed; text-align:center;padding:3px 5px;overflow:hidden;}
+.view-type2  .text-left {text-align:left;padding-left:10px}
+.view-type2  .text-right {text-align:right;padding-right:10px}
+.view-type2 tr.colbox td {background-color:#f4fafc}
+.view-type2 tr.colbox2 td {background-color:#fefeea}
+
+
+.view-type3 { font-size:12px; border:2px solid #93b3da;width:100%;margin-top:20px}
+.view-type3  tr th {background:#d1e1f5; color:#333; border:1px solid #93b3da; font-weight:bold;color:#555; text-align:center;  padding:10px 4px;}
+.view-type3  td {background-color:#fff; color:#777; vertical-align:middle; text-align:center;padding:3px 5px;}
+
+.view-type4 { font-size:12px; border:2px solid #a2a2a2;width:100%;margin-top:20px}
+.view-type4  tr th {background:#e7e7e7; color:#333; border:1px solid #c2c1c1; font-weight:bold;color:#555; text-align:center;  padding:10px 0;width:150px}
+.view-type4  td {background-color:#fff; color:#777; border:1px solid #c2c1c1;vertical-align:middle;padding:3px 5px;}
+
+.view-type4 img {vertical-align:middle}
+
+
+
+.tab-box ul {border-bottom:2px solid #0E6AC4;height:57px;display:relative}
+.tab-box ul li {float:left;}
+.tab-box ul li:first-child a{border-left:2px solid #D7D7D7}
+.tab-box ul li a {display:block;border-right:2px solid #D7D7D7;border-top:2px solid #D7D7D7;border-bottom:none;border-left:none;font-size:16px;color:#666;text-align:center;line-height:55px;font-weight:bold;padding:0 50px}
+.tab-box ul li a:hover {background:#ecf4fe;color:#000}
+.tab-box ul li a.on:hover{background:none;}
+.tab-box ul li a.on {position:relative;border-color:#0E6AC4;border-bottom:2px solid #fff;height:55px;color:#0E6AC4;}
+.tab-box ul li a.on:before {content:"";position:absolute;left:-2px;top:-2px;width:2px;background:#0E6AC4;height:59px}
+
+input.condi {border:1px solid #cdcdcc;padding:3px 2px;width:50px}
+input.condi2 {border:1px solid #cdcdcc;}
+
+select.condi2 {border:1px solid #cdcdcc;padding:5px 2px;}
+a.btn-condi {display:inline-block;margin-left:5px;padding:2px 7px 0px 7px;background:#0E6AC4;color:#fff;border-radius:3px}
+a.btn-condi:hover {background:#080548}
+
+
+.btn-cen {display:inline-block;margin-left:5px;padding:15px 40px;background:#8f8f8f;color:#fff;border-radius:5px;font-size:18px;font-family:"Nanum Barun Gothic";}
+.btn-cen:hover {background:#080548}
+
+.btn-ok {display:inline-block;margin-left:5px;padding:15px 40px;background:#4b77ad;color:#fff;border-radius:5px;font-size:18px;font-family:"Nanum Barun Gothic";}
+.btn-ok:hover {background:#080548}
+
+
+.arrow-prev {border-bottom: 3px solid #05418b;border-right: 3px solid #05418b;  width:10px; height: 10px; transform: rotate(135deg);opacity:0.6;display:inline-block;}
+.arrow-next {border-bottom: 3px solid #05418b;border-right: 3px solid #05418b;  width:10px; height: 10px; transform: rotate(-45deg);opacity:0.6;display:inline-block}
+
+.condi-nav {position:absolute;top:110px;right:20px;}
+.condi-nav ul {float:left;display:inline-block;}
+.condi-nav ul li a {background:#d1e1f5;border-radius:5px;color:#05418b;padding:10px 20px;display:block;border:1px solid #93b3da;font-weight:bold;font-size:13px}
+.condi-nav ul li a:hover {background:#e7f1fd}
+.condi-nav ul li a span {margin-top:5px}
+
+.head-tit {font-family:"Nanum Barun Gothic";font-size:24px;background:#0e6ac4;padding:0 0 0 30px;margin-bottom:20px;color:#fff;font-weight:bold}
+.head-tit::after {content:"";background:url('/img/pop-img00.png') no-repeat 0 bottom;display:inline-block;width:150px;height:77px;margin-left:20px;vertical-align:middle}
+
+.head-tit2 {font-family:"Nanum Barun Gothic";font-size:24px;background:#4b77ad;padding:0 0 0 30px;margin-bottom:20px;color:#fff;font-weight:bold}
+.head-tit2::after {content:"";background:url('/resources/img/pop-img02.png') no-repeat 0 center;display:inline-block;width:150px;height:77px;margin-left:20px;vertical-align:middle}

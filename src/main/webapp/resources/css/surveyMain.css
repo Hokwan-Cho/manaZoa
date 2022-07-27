@@ -1,0 +1,219 @@
+body{
+	background: #fff;
+	font-size: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+ul, ol, li{list-style: none;padding:0;margin:0}
+
+
+.main-title-text2 {
+	float: right;
+}
+.main-title-text2 button {
+	margin: 20px 0 0 5px;
+	padding: 2px 7px 3px 25px;
+	border-radius: 4px;
+	font-size: .8rem;
+}
+.main-title-text2 span {font-weight:600;color:#fdf745}
+.main-title-text2 .login {
+	background: #46aae4 url(../../../resources/img/in.png) no-repeat 5px 6px;
+    color: #fff;
+}
+.main-title-text2 .btn-logout{
+	background: #5b5b5b url(../../../resources/img/out.png) no-repeat 5px 6px;
+	color: #fff;
+}
+.main-title-text2 .login:hover {
+	background: #136797 url(../../../resources/img/out.png) no-repeat 5px 6px;
+}
+.main-title-text2 .btn-logout:hover {
+	background: #848484 url(../../../resources/img/out.png) no-repeat 5px 6px;
+}
+
+
+
+.surveyIndexWrap{
+    width:90%;
+    padding:10px;
+    margin:0 auto;
+	border:3px solid #e9ecef;
+}
+ .surveyTop{
+        width:100%;
+    }
+    .surveyLogo{height:60px}
+    .hospital_logo {
+        width: 200px;
+        float: left;
+    }
+    
+    .surveyTitle{
+        font-size:1.2em;
+		background-color: #6f42c1;border-radius: 5px;color:#fff;text-align:center;padding:5px 0;
+    }
+   
+    .kor_logo{
+        display:block;
+        width: 181px;
+        height:40px;
+        margin-top: 5px;
+        margin-right: 5px;
+        float:right;
+    }
+    .surveyInfo{
+		font-size:0.9em;
+		margin:5px 0;
+		background-color: #e8e5f2;border-radius: 5px;color:#444;padding:5px;
+    }
+    
+    
+    .surveyPersonal{
+        width:100%;
+        margin-top: 20px;
+        padding: 0 30px;
+    }
+    .surveyPersonTitle{
+        width:100%;
+		background-color:#e9ecef;text-align:center;padding:10px 0;font-weight:600;margin-bottom:10px;overflow:hidden;
+       color: #5e3d99;
+    }
+    
+	.surv_box {
+	}
+	.surv_box_wrapper {
+		padding-left: 30px;
+	}
+	.surv_box_wrapper:last-of-type{
+		clear: both;	
+		border-top: 1px solid #c5c5c5;
+	}
+	.surv_box_wrapper ul {
+		float: left;
+		width: 50%;
+		padding: 20px 0;
+	}
+	.surv_box_wrapper ul li.qu {
+		float: left;
+		width: 60%;
+		overflow: visible;
+		font-weight: bold;
+	}
+
+   
+    .input_txt{
+    	width: 50%;
+    }
+    .input_select{
+        width: 50%;
+		height: inherit;
+    }
+    .check_title{
+    	color:#000;
+    }
+
+
+    .buttonGroup{
+        clear: both;
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: right;
+    }
+    .buttonGroup input:not(:last-of-type) {
+    	margin-right: 5px;
+    }
+    .buttonGroup input[type=button] {
+    	font-size: .9rem;
+    }
+    
+    
+    
+/* 대상자 목록  */    
+.victimListWrap {
+	width: 100%;
+	margin: 50px 0;
+	padding: 0 30px;
+}    
+
+.tbl-victimList {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.tbl-victimList th {
+	height: 50px;
+	background-color: #f1f0f0;
+    border-top: 2px solid #555;
+    border-bottom: 1px solid #bebebf;
+}
+
+.tbl-victimList td {
+	height: 40px;
+    border-bottom: 1px solid #e1e1e1;
+    color: #696969;
+    text-align: center;	    
+}
+
+
+
+/* 설문 동의서 목록 */
+.tab-wrapper {
+	text-align: center;
+}
+
+.tab-wrapper .tab {
+	display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab-wrapper .tab:hover, 
+.tab-wrapper .tab:active, 
+.tab-wrapper .tab:focus,
+.tab-wrapper .tab.on {
+	background: #5e3d99;
+    color: #fff;
+} 
+
+
+    
+
+
+@media (min-width:768px) {
+.surveyIndexWrap{
+        width:800px;
+    }
+	
+}
+@media ( max-width : 414px) {
+    .kor_logo {
+		width: 130px;
+        float: right;
+        height:31px;
+        margin-top:10px
+	}
+	.hospital_logo {
+		height: 40px;
+		width: 130px;
+		float: left;
+		margin-top: 6px;
+		margin-left: 7px;
+	}
+}
+@media (min-width:480px) {
+
+	.surv_box ul li.qu {
+		float:left;
+		width:120px;
+		overflow:visible;
+	}
+
+	.surv_box2 {font-size:0.9em;width:30%;float:left;}
+	.surv_box2 ul li.qu {width:120px;overflow:visible;float:left}
+
+}
+
+

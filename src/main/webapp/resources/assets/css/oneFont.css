@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Noto Sans Thin'), local('NotoSans-Thin'),
+    url(../font/notosansKR/NotoSansKR-Thin.woff2) format('woff2'),
+    url(../font/notosansKR/NotoSansKR-Thin.woff) format('woff'),
+    url(../font/notosansKR/NotoSansKR-Thin.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Noto Sans Light'), local('NotoSans-Light'),
+    url(../font/notosansKR/NotoSansKR-Light.woff2) format('woff2'),
+    url(../font/notosansKR/NotoSansKR-Light.woff) format('woff'),
+    url(../font/notosansKR/NotoSansKR-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 350;
+    src: local('Noto Sans DemiLight'), local('NotoSans-DemiLight'),
+    url(../font/notosansKR/NotoSansKR-DemiLight.woff2) format('woff2'),
+    url(../font/notosansKR/NotoSansKR-DemiLight.woff) format('woff'),
+    url(../font/notosansKR/NotoSansKR-DemiLight.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url(../font/notosansKR/NotoSansKR-Regular.woff2) format('woff2'),
+    url(../font/notosansKR/NotoSansKR-Regular.woff) format('woff'),
+    url(../font/notosansKR/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+    url(../font/notosansKR/NotoSansKR-Medium.woff2) format('woff2'),
+    url(../font/notosansKR/NotoSansKR-Medium.woff) format('woff'),
+    url(../font/notosansKR/NotoSansKR-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url(../font/notosansKR/NotoSansKR-Bold.woff2) format('woff2'),
+    url(../font/notosansKR/NotoSansKR-Bold.woff) format('woff'),
+    url(../font/notosansKR/NotoSansKR-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Noto Sans Black'), local('NotoSans-Black'),
+    url(../font/notosansKR/NotoSansKR-Black.woff2) format('woff2'),
+    url(../font/notosansKR/NotoSansKR-Black.woff) format('woff'),
+    url(../font/notosansKR/NotoSansKR-Black.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'oneFont';
+  src:  url('../font/oneFont/oneFont.eot?g4h7xv');
+  src:  url('../font/oneFont/oneFont.eot?g4h7xv#iefix') format('embedded-opentype'),
+    url('../font/oneFont/oneFont.ttf?g4h7xv') format('truetype'),
+    url('../font/oneFont/oneFont.woff?g4h7xv') format('woff'),
+    url('../font/oneFont/oneFont.svg?g4h7xv#oneFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'oneFont' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logout:before {
+  content: "\e95a";
+}
+.icon-men:before {
+  content: "\e95b";
+}
+.icon-link2:before {
+  content: "\e95c";
+}
+.icon-page2:before {
+  content: "\e95d";
+}
+.icon-pencil2:before {
+  content: "\e95e";
+}
+.icon-prev6:before {
+  content: "\e95f";
+}
+.icon-next6:before {
+  content: "\e960";
+}
+.icon-recycle:before {
+  content: "\e961";
+}
+.icon-login:before {
+  content: "\e956";
+}
+.icon-open:before {
+  content: "\e957";
+}
+.icon-mail:before {
+  content: "\e958";
+}
+.icon-sns1:before {
+  content: "\e959";
+}
+.icon-bookmark:before {
+  content: "\e94f";
+}
+.icon-gallery:before {
+  content: "\e950";
+}
+.icon-menu2:before {
+  content: "\e951";
+}
+.icon-layout:before {
+  content: "\e952";
+}
+.icon-pull:before {
+  content: "\e953";
+}
+.icon-alarm:before {
+  content: "\e92d";
+}
+.icon-blocked:before {
+  content: "\e92e";
+}
+.icon-book:before {
+  content: "\e92f";
+}
+.icon-bullhorn:before {
+  content: "\e930";
+}
+.icon-checkmark:before {
+  content: "\e932";
+}
+.icon-clipboard:before {
+  content: "\e933";
+}
+.icon-connection:before {
+  content: "\e934";
+}
+.icon-display:before {
+  content: "\e935";
+}
+.icon-exit:before {
+  content: "\e936";
+}
+.icon-file-empty:before {
+  content: "\e937";
+}
+.icon-file-music:before {
+  content: "\e938";
+}
+.icon-file-play:before {
+  content: "\e939";
+}
+.icon-files-empty:before {
+  content: "\e93a";
+}
+.icon-file-text2:before {
+  content: "\e93b";
+}
+.icon-file-video:before {
+  content: "\e93c";
+}
+.icon-file-zip:before {
+  content: "\e93d";
+}
+.icon-filter:before {
+  content: "\e93e";
+}
+.icon-image:before {
+  content: "\e93f";
+}
+.icon-images:before {
+  content: "\e940";
+}
+.icon-link:before {
+  content: "\e942";
+}
+.icon-list:before {
+  content: "\e943";
+}
+.icon-list2:before {
+  content: "\e944";
+}
+.icon-map:before {
+  content: "\e945";
+}
+.icon-map2:before {
+  content: "\e946";
+}
+.icon-mic:before {
+  content: "\e947";
+}
+.icon-mobile:before {
+  content: "\e948";
+}
+.icon-music:before {
+  content: "\e949";
+}
+.icon-new-tab:before {
+  content: "\e94a";
+}
+.icon-stats-bars:before {
+  content: "\e94b";
+}
+.icon-stats-dots:before {
+  content: "\e94c";
+}
+.icon-printer:before {
+  content: "\e94d";
+}
+.icon-print:before {
+  content: "\e92c";
+}
+.icon-like:before {
+  content: "\e929";
+}
+.icon-pencil:before {
+  content: "\e92a";
+}
+.icon-del:before {
+  content: "\e92b";
+}
+.icon-arrow:before {
+  content: "\e921";
+}
+.icon-menu:before {
+  content: "\e922";
+}
+.icon-bell:before {
+  content: "\e923";
+}
+.icon-chart:before {
+  content: "\e924";
+}
+.icon-calendar1:before {
+  content: "\e931";
+}
+.icon-calendar:before {
+  content: "\e925";
+}
+.icon-page1:before {
+  content: "\e926";
+}
+.icon-exit1:before {
+  content: "\e927";
+}
+.icon-youtube:before {
+  content: "\e91d";
+}
+.icon-facebook:before {
+  content: "\e91e";
+}
+.icon-instagram:before {
+  content: "\e91f";
+}
+.icon-blog:before {
+  content: "\e920";
+}
+.icon-twitter:before {
+  content: "\e94e";
+}
+.icon-keyboard1:before {
+  content: "\e941";
+}
+.icon-keyboard:before {
+  content: "\e91c";
+}
+.icon-clip:before {
+  content: "\e91b";
+}
+.icon-search:before {
+  content: "\e913";
+}
+.icon-page:before {
+  content: "\e914";
+}
+.icon-downLoad:before {
+  content: "\e915";
+}
+.icon-join:before {
+  content: "\e916";
+}
+.icon-down:before {
+  content: "\e900";
+}
+.icon-down2:before {
+  content: "\e901";
+}
+.icon-down3:before {
+  content: "\e902";
+}
+.icon-down4:before {
+  content: "\e917";
+}
+.icon-next5:before {
+  content: "\e954";
+}
+.icon-next:before {
+  content: "\e903";
+}
+.icon-next2:before {
+  content: "\e904";
+}
+.icon-next3:before {
+  content: "\e905";
+}
+.icon-next4:before {
+  content: "\e918";
+}
+.icon-prev5:before {
+  content: "\e955";
+}
+.icon-prev:before {
+  content: "\e906";
+}
+.icon-prev2:before {
+  content: "\e907";
+}
+.icon-prev3:before {
+  content: "\e908";
+}
+.icon-prev4:before {
+  content: "\e919";
+}
+.icon-up:before {
+  content: "\e909";
+}
+.icon-up2:before {
+  content: "\e90a";
+}
+.icon-up3:before {
+  content: "\e90b";
+}
+.icon-up4:before {
+  content: "\e91a";
+}
+.icon-multipli:before {
+  content: "\e90c";
+}
+.icon-plus:before {
+  content: "\e90d";
+}
+.icon-minus:before {
+  content: "\e928";
+}
+.icon-home:before {
+  content: "\e90e";
+}
+.icon-lock1:before {
+  content: "\e90f";
+}
+.icon-lock2:before {
+  content: "\e910";
+}
+.icon-user:before {
+  content: "\e911";
+}
+.icon-users:before {
+  content: "\e912";
+}

@@ -1,0 +1,170 @@
+/* 공통 CSS */
+.section{
+    background-color: white;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+ul, ol, li{list-style: none;padding:0;margin:0}
+
+.surveyTop{ position: absolute;background:#fff;
+        width:100%;
+		padding:0;z-index:300;
+    }
+ .surveyTitle{margin:0 auto;
+		width:90%;
+        font-size:1.2em;
+		background-color: #6f42c1;border-radius: 5px;color:#fff;text-align:center;padding:5px;border:3px solid #6f42c1;
+    }
+.surveyInfo{margin:0 auto;margin-top:5px;
+		width:90%;
+		font-size:0.8em;
+		background-color: #e8e5f2;border-radius: 5px;color:#444;padding:5px;border:3px solid #e8e5f2;
+    }
+.surveyInfo ul li {background:url(../../resource/img/dot.png) 0 7px no-repeat;padding-left:10px}
+.qest_wrap{
+
+        width:90%;
+		border:3px solid #5499bb;border-radius:10px;
+		margin:0 auto;margin-top:180px;z-index:1;min-height:550px;
+		padding:5px;font-size:0.9em;
+    }
+    .qest{
+        display:block;
+        font-size: 20px;
+		background:#5499bb;color:#fff;border-radius:0 0 5px 5px ;padding:0 0 4px 0;
+    }
+    .qest_no{
+        display:block;
+		text-align:center;
+		background:#5499bb;color:#fff;border-radius:5px;padding:5px 0;
+    }
+.qest_title{
+        text-align:left;
+        margin:0 auto;
+        margin-top:45px;
+    }
+.qest_anwer_wrap{
+        padding:20px;
+        text-align:left;
+        margin:0 auto;
+    }
+.ques_table{
+		width:90%;
+		font-size:0.9em;
+        border-collapse: collapse;
+		table-layout:fixed;
+    }
+    .ques_table th{
+        background-color: #d6f1fe;
+        text-align: center;
+		color:#1f678a;
+        height: 20px;
+        border: 1px solid #d6d6d6;
+    }
+    .ques_table td{
+        height: 20px;
+        border: 1px solid #d6d6d6;
+		font-size:0.9em;
+    }
+    .ques_table tr:nth-child(2n){
+        background-color: #f0f9fe;
+    }
+	.qest_btn_group {text-align:center;padding-bottom:20px}
+
+textarea{
+    resize: both;
+    width: 95%;
+}
+
+ .input_txt{
+        height:16px;width:90%;
+    }
+ .input_txt_s{
+        height:20px;
+        width:50px;
+    }
+   
+    .btn_prev{
+        position: relative;
+        display: inline-block;
+        width: 70px;
+        height: 28px;
+        padding: 6px 10px;
+        border-left: 0;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: #1c99d7;
+    }
+    .btn_next{
+        position: relative;
+        display: inline-block;
+        width: 70px;
+        height: 28px;
+        padding: 6px 10px;
+        border-left: 0;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: #1c99d7;
+    }
+   
+
+    .subQuest{
+        margin-left:10px;
+        margin-top:30px;
+        display:none;
+    }
+    .subAnwer{
+        margin-left:47px;
+        margin-top:10px;
+        display:none;
+    }
+    #pp-nav{
+        display:block;
+    }
+    .quest_red{color:#000;background:#54bbae;border-radius:5px;padding:5px 0;font-size:0.8em;margin-top:5px;text-align:center;
+    }
+
+
+
+@media (min-width: 820px) {
+.surveyTop{width:100%;	padding:0;z-index:300;
+    }
+.surveyTitle{ width:800px;margin:0 auto;
+		margin:0 auto;
+		padding:5px;
+    }   
+	
+.surveyInfo{width:800px;margin:0 auto;
+		margin:0 auto;margin-top:10px;
+		padding:5px;
+    }
+.surveyLogo{width:800px;margin:0 auto;
+		margin:0 auto;margin-top:10px;
+		padding:5px;
+    }
+.qest_wrap{
+        width:800px;
+		border:3px solid #5499bb;border-radius:10px;
+		margin:0 auto;margin-top:180px;
+		padding:5px;
+    }
+    
+}
+
+@media (min-width: 640px) {
+.surveyInfo ul li {float:left;overflow:hidden;width:48%;}
+.surveyInfo ul {overflow:hidden}
+
+.qest_wrap{
+		margin-top:160px;
+    }
+
+}

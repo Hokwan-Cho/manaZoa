@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.766" height="31.513" viewBox="0 0 31.766 31.513">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="SVGID" d="M342.784,75.508a13.387,13.387,0,0,0-.212-2.384H331.594v4.509h6.273a5.362,5.362,0,0,1-2.326,3.518v2.925h3.767a11.369,11.369,0,0,0,3.476-8.568Zm0,0" transform="translate(-331.594 -73.124)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="SVGID-2" data-name="SVGID" d="M312.841,94.7a11.129,11.129,0,0,0,7.715-2.824l-3.767-2.925a7.033,7.033,0,0,1-10.47-3.693h-3.894v3.02A11.652,11.652,0,0,0,312.841,94.7Zm0,0" transform="translate(-302.424 -85.261)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="SVGID-3" data-name="SVGID" d="M304.086,71.85a6.89,6.89,0,0,1,0-4.43V64.4h-3.894a11.67,11.67,0,0,0,0,10.47l3.894-3.02Zm0,0" transform="translate(-298.952 -64.4)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="SVGID-4" data-name="SVGID" d="M312.841,51.053A6.3,6.3,0,0,1,317.3,52.8l3.343-3.343a11.2,11.2,0,0,0-7.8-3.036,11.652,11.652,0,0,0-10.417,6.422l3.894,3.02a6.947,6.947,0,0,1,6.523-4.806Zm0,0" transform="translate(-302.424 -46.417)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_14263" data-name="그룹 14263" transform="translate(-286.464 -34.937)">
+    <g id="그룹_14253" data-name="그룹 14253" transform="translate(286.464 34.937)">
+      <rect id="사각형_8065" data-name="사각형 8065" width="31.766" height="31.513" rx="10" fill="#eee"/>
+    </g>
+    <g id="그룹_14262" data-name="그룹 14262" transform="translate(290.924 39.036)">
+      <g id="그룹_14255" data-name="그룹 14255" transform="translate(11.657 9.537)">
+        <g id="그룹_14254" data-name="그룹 14254" clip-path="url(#clip-path)">
+          <rect id="사각형_8066" data-name="사각형 8066" width="24.142" height="23.904" transform="translate(-6.476 -6.476)" fill="#3e82f1"/>
+        </g>
+      </g>
+      <g id="그룹_14257" data-name="그룹 14257" transform="translate(1.24 13.871)">
+        <g id="그룹_14256" data-name="그룹 14256" clip-path="url(#clip-path-2)">
+          <rect id="사각형_8067" data-name="사각형 8067" width="31.083" height="22.394" transform="translate(-6.476 -6.476)" fill="#32a753"/>
+        </g>
+      </g>
+      <g id="그룹_14259" data-name="그룹 14259" transform="translate(0 6.422)">
+        <g id="그룹_14258" data-name="그룹 14258" clip-path="url(#clip-path-3)">
+          <rect id="사각형_8068" data-name="사각형 8068" width="18.086" height="23.422" transform="translate(-6.476 -6.476)" fill="#f9bb00"/>
+        </g>
+      </g>
+      <g id="그룹_14261" data-name="그룹 14261" transform="translate(1.24)">
+        <g id="그룹_14260" data-name="그룹 14260" clip-path="url(#clip-path-4)">
+          <rect id="사각형_8069" data-name="사각형 8069" width="31.168" height="22.394" transform="translate(-6.476 -6.476)" fill="#e74133"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

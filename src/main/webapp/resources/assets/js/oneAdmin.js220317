@@ -1,0 +1,93 @@
+/* guide 0.1 (20.11.17) ***************
+oneS.gnb() // 기본 메뉴 체계를 이루는 스크립트
+oneS.subGnb() // Sub 관련 메뉴 스크립트
+oneS.form() // 폼 관련 스크립트
+oneS.popup(n,m) // n : open,close / m : jquery Eelement
+**************************************/
+oneS = {
+  adminGnb : function(){
+    this.adminGnb.layout = 1;
+    $('.widthChange').on('click', function(){
+      oneS.adminGnb.layout > 0 ? oneS.adminGnb.layout-- : oneS.adminGnb.layout = 0;
+      $(".adminContetLayout").attr("class","adminContetLayout on"+oneS.adminGnb.layout);
+    });
+    $('.widthChange2').on('click', function(){
+      oneS.adminGnb.layout > 1 ? oneS.adminGnb.layout = 2 : oneS.adminGnb.layout++;
+      $(".adminContetLayout").attr("class","adminContetLayout on"+oneS.adminGnb.layout);
+    });
+    $(".gnb > li > a").on("mouseenter",function(){
+      $(this).next(".subMenuBox").slideDown();
+      $(this).parent().addClass("on");
+    });
+    $(".gnb > li").on("mouseleave",function(){
+      $(this).find(".subMenuBox").stop().slideUp(200);
+      $(this).removeClass("on");
+    });
+  },
+  form : function(){//form
+    $("input").each(function(){
+      if($(this).is("[placeholder]")){
+        thisOffN = $(this).position();
+        $(this).before("<div class='inputLable'>"+$(this).attr("placeholder")+"</div>");
+        $(this).on("focus",function(){
+          thisOffN = $(this).position();
+          $(this).prev(".inputLable").css("top",thisOffN.top).css("left",thisOffN.left).addClass("on");
+        });
+        $(this).on("blur",function(){
+          $(this).prev(".inputLable").removeClass("on");
+        });
+      }
+    });
+  },
+  popup : function(n,m){//popup
+    if(n === "open"){
+      $(m).addClass("on");
+    }else if(n === "close"){
+      $(m).removeClass("on");
+    }
+  },
+  qnaS : function(){
+    $(".qnaList > dl > dt > a").on("click",function(){
+      thisN = $(this).parent();
+      if(thisN.hasClass("on")){
+        thisN.removeClass("on");
+        thisN.next("dd").slideUp();
+      } else{
+        thisN.parent().find("dt").removeClass("on");
+        thisN.addClass("on");
+        thisN.parent().find("dd").slideUp();
+        thisN.next("dd").slideDown();
+      }
+    });
+  },
+  showHide : function(n,m){
+    if(m === "show" || $(n).css("display") === "none"){
+      $(n).slideDown();
+      $(m).addClass("on");
+    }else{
+      $(n).slideUp();
+      $(m).removeClass("on");
+    }
+  },
+  tabS : function(n,m,l){
+    $(n).find("li > a").on("click",function(){
+      $(n).find("li").removeClass("on");
+      this.indexN = $(this).parent().index();
+      $(this).parent().addClass("on");
+      $(m).hide();
+      $(m).eq(this.indexN).fadeIn();
+      if(l !== undefined){
+        eval(l+"("+this.indexN+")");
+      }
+    });
+  }
+}
+
+$(window).scroll(function(){
+  $(this).scrollTop() > 60 ? $("body").addClass("scroll") : $("body").removeClass("scroll");
+
+  var position = $(window).scrollTop();
+
+  console.log(position);
+});
+

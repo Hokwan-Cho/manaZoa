@@ -1,0 +1,16 @@
+2020/05/26 11:00:53 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2020/05/26 11:00:53 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2020/05/26 12:10:47 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2020/05/26 12:10:47 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2020/05/26 12:11:06 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [79050],[Unmatched Identification Number]
+2020/05/26 12:11:06 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2020/05/26 12:15:15 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2020/05/26 12:15:15 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2020/05/26 12:17:49 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2020/05/26 12:17:49 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2020/05/26 13:13:26 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2020/05/26 13:13:26 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2020/05/26 14:10:18 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2020/05/26 14:10:18 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
+2020/05/26 16:34:59 : xecure_crypto_jni_XecureLib_virtualIDVerifyS : SFXW_VerifyVID ret [34284],[XFA_CMS_DecIDNandRandom failed [34284]]
+2020/05/26 16:34:59 : VidVerifier.virtualIDVerifierS: error while virtualIDVerifyS.
